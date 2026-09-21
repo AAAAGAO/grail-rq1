@@ -1,0 +1,30 @@
+﻿How can I initialise a static Map?,Map,Collection
+"Difference between HashMap, LinkedHashMap and TreeMap",Map,SortedMap,Comparator,LinkedHashMap,ConcurrentHashMap
+How do I instantiate a Queue object in java?,Queue,LinkedList,PriorityQueue
+How do I use a PriorityQueue?,Comparator,PriorityQueue
+how to access ConcurrentHashMap elements from other class Method,Map
+How to add latencies in the ConcurrentLinkedQueue which is part of ConcurrentMap map in atomic way?,HashMap
+How to apend a linkedlist onto a specific node of a linkedlist?,LinkedList,String,List,Collections,Arrays
+How to check if ArrayBlockingQueue is locked or queue element currently processed by thread?,ArrayBlockingQueue
+How to convert ArrayList<subClass> to ArrayList<super> in java,ArrayList,List
+How to convert/cast HashMap to LinkedHashMap?,LinkedHashMap,HashMap,Map
+How to create empty EnumSet?,EnumSet
+How to deserialize polymorphic LinkedList with Jackson JSON and JAVA?,List,ArrayList,LinkedHashMap,Object
+How to easily convert a java8 map to a concurrentMap?,ConcurrentHashMap
+"How to effectively use a String as a WeakHashMap key in Java, or an alternative solution",WeakHashMap,String
+how to implement a comparator for StringBuffer class in Java for use in TreeSet?,Comparator,Set,TreeSet
+How to initialize HashSet values by construction?,Set,HashSet,Arrays,Collection
+How to iterate PriorityBlockingQueue in order,PriorityBlockingQueue
+How to iterate through LinkedHashMap with lists as values,Map,ArrayList,List
+How to make BlockingQueue to accept multiple types?,BlockingQueue,ArrayBlockingQueue,Object
+How to make thread communication using deque?,Deque,LinkedList
+How to override Externalizable to Serializable?,Object,Serializable
+How can a bounded blocking queue be created in Java?,LinkedBlockingQueue
+How to remove and add elements to TreeMap while iterating?,Map,HashMap
+How can a size-limited Queue keep only the last N elements in Java?,Queue
+How to shuffle/randomize elements within EnumSet in Java?,List,ArrayList,Collections,EnumSet
+How to subSet from SortedSet<String>,SortedSet,Set,TreeSet,String
+How to use generic EnumMap as parameter in abstract methods,EnumMap,HashMap,Object
+How To Use ListIterator?,ListIterator
+How to use the current thread to process a work queue?,Queue
+Why is Java Vector class considered obsolete or deprecated?,Vector,Deque,ArrayDeque,Collections

@@ -1,0 +1,30 @@
+﻿how to add additional data in message asmack/smack?,PacketExtension
+how to add new buddy in roster in xmpp,Roster
+Difference between openfire users and roster Users,Roster
+How can I get the View in the FileTransfer upload method in PhoneGap?,FileTransfer
+How do I stop Word from selecting each FormField as I read their values in VBA?,FormField
+How to add users to a roster in xmpp?,Roster
+How to create group chat and add user using smack 4.1 in android [closed],MultiUserChat,Connection,InvitationListener
+How to detect an error while sending a chat using Smack,Connection,Chat
+How to discover if the currently connected server provides a MUC component,ServiceDiscoveryManager
+How to enable the XEP-0199 in Smack?,PacketListener,PacketFilter
+How to find out the room occupants when someone joined or left a MultiUserChat in smackx?,PacketListener
+How to get IQ tag using smack Java?,PacketFilter,PacketListener
+How to get MariaDB Connection using java?,Connection
+How to get offline message of group chat from Openfire,MultiUserChat
+How to know or catch exception when using nextResult() if a connection is broken using Java Smack API?,PacketCollector
+How to know Typing Status in XMPP openfire using Smack,Chat
+How to persist users(MultiUserChat) and chat history in Openfire (Ver 4.0.3) using SMACK API (4.2.0 Beta1),MultiUserChat
+How to properly listen for MultiUserChat in Smack?,PacketFilter,PacketListener
+How to Publish and parse back with PubSubManager in asmack,Chat
+How to query a User and his subscriptions via XMPP (smack API),PubSubManager,Node
+How to receive message without using createChat for android XMPP chat smack api,Chat,PacketFilter,PacketListener
+How to remove packet listeners of XMPPClient using Smack,PacketListener
+How to send composing / is typing (Chat states) event in Multiuser chat / Group chat & One to One chat in xmpp android?,MessageEventManager,MessageEventNotificationListener,ServiceDiscoveryManager
+How to send Custom IQ stanzas to another user using smack library?,IQProvider
+How to send invitation to gtalk contact with smack java library?,Roster
+How to send message to all participants of multi user chat room using smack,MultiUserChat
+How to send one to one message using smack API 4.1.0 android,Chat
+How to set/get profile data with XMPP using Smack,IQProvider
+How can a Smack client receive incoming chat packets continuously?,PacketListener,Chat
+How to uses Smack API UserSearchManager with local server?,Connection

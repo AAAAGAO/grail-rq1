@@ -1,0 +1,183 @@
+﻿edge_id,source,target,relation,symmetric,support_count,fact_status,retrieval_status,scope_policy
+a11b14c6410bb7d75cf194f8,android.animation.Animator,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+17d746f8ce52b016bd667f07,android.animation.Animator,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0ff5e13493016cbfd7f68d79,android.animation.AnimatorInflater,android.animation.Animator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d038b87e268fa3b2c9fac107,android.animation.AnimatorInflater,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+668fdc097b92bccde811f17d,android.animation.AnimatorInflater,android.content.Context,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+3e05a343fa5d4adcbaa138dd,android.animation.AnimatorSet,android.animation.Animator,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1319dd2c7de4076c53d0e34c,android.animation.AnimatorSet,android.animation.Animator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a72a70efa40af5d229bcf371,android.animation.AnimatorSet,android.animation.Animator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b75eba3a6d55c14bebdb5c6a,android.animation.AnimatorSet,android.animation.ObjectAnimator,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+92d3770e2d2012bce21db1f9,android.animation.AnimatorSet,android.animation.ValueAnimator,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+9f5e33b4337ee485bb4dc166,android.animation.AnimatorSet,android.view.View,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+458b06bd1c6ce7b0e0dd8c97,android.animation.AnimatorSet,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+41e4da3223d2b77a922dc60d,android.animation.AnimatorSet,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8883be63d3e602ec66e155d2,android.animation.ObjectAnimator,android.animation.Animator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8b8159b50086bf8aa77a23bd,android.animation.ObjectAnimator,android.animation.ValueAnimator,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+ba34e639a299704360a91fac,android.animation.ObjectAnimator,android.animation.ValueAnimator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+672639abad002fba4bccf061,android.animation.ObjectAnimator,android.animation.ValueAnimator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1019ccd506228a05f6e819ff,android.animation.ObjectAnimator,android.widget.ImageView,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+fa0fa5926dd9397ff9a76e0a,android.animation.ObjectAnimator,java.lang.Object,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a4157bf5b11ba11d204b5d67,android.animation.ObjectAnimator,java.lang.Object,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d69f08edbdcfa8ad32d6f8b4,android.animation.ObjectAnimator,java.lang.String,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b0e83b7324ec6f9d4f9d8ce8,android.animation.ObjectAnimator,java.lang.String,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bbea1c251cb3eba4929558aa,android.animation.ValueAnimator,android.animation.Animator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fcf89b406922ef6fb05a893f,android.animation.ValueAnimator,android.animation.Animator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+eacce56c73def8349d31b67a,android.animation.ValueAnimator,android.view.View,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+00b9a3cd72a4c07e5f4dcb0c,android.animation.ValueAnimator,java.lang.Object,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+09a2d35838aa8c5fc55a4dbe,android.animation.ValueAnimator,java.lang.Object,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6c4d0a85e9a7c54e4d53354e,android.animation.ValueAnimator,java.lang.String,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c3ea550d1d94d53f6b5c6515,android.animation.ValueAnimator,java.lang.String,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+057ec188975f4e9d93cdcf8f,android.app.Activity,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0408e33675f1f9fd8543cb71,android.app.Activity,android.graphics.Bitmap,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7249892c1242511867921f9d,android.app.Activity,android.graphics.drawable.Drawable,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8886ec82a869e64561f357b8,android.app.Activity,android.os.Bundle,ACCEPTS,0,13,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d11db397372ace096b80aabd,android.app.Activity,android.view.Menu,ACCEPTS,0,8,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9889870eb79db3ee22be8f28,android.app.Activity,android.view.View,ACCEPTS,0,9,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+26bb4466d5a8adff846202c9,android.app.Activity,android.view.View,RETURNS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a38e4b04d2b07d6a96d75461,android.app.Activity,android.view.Window,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f0cf04a1f1fe622cce6454fa,android.app.Activity,java.lang.Object,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c8951886cf2f37e4877a6357,android.app.Activity,java.lang.String,ACCEPTS,0,7,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a4fd2fb20e5d03214b50db73,android.app.Activity,java.lang.String,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5b5a1237abfa5efef48914f5,android.content.Context,android.content.res.Resources,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f9e0154dbc689cb999af2f4c,android.content.Context,android.content.res.TypedArray,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+45524be8d2dfc3089d771d4b,android.content.Context,android.graphics.Bitmap,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6853911e9ee7f7182b033936,android.content.Context,android.graphics.drawable.Drawable,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d51f3d5d742f17d920dbd67e,android.content.Context,android.os.Bundle,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1860316cb0ea73b8dad032ef,android.content.Context,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+98994687d9457d24e90ca7b7,android.content.Context,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0057c582c1108c61d56922e2,android.content.Context,java.lang.String,ACCEPTS,0,31,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4887654ee9c22b492dc36706,android.content.Context,java.lang.String,RETURNS,0,7,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+be2a3a9ad9f1f15b82e236f0,android.content.res.Resources,android.content.Context,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+9b178c8528c20d467569f999,android.content.res.Resources,android.content.res.TypedArray,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+022c03898613d66993a3382e,android.content.res.Resources,android.graphics.drawable.Drawable,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4f94d7b53b9921b4e083013f,android.content.res.Resources,android.os.Bundle,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4b1d92f4be75d50dcaeda165,android.content.res.Resources,java.lang.Object,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ec52772b6b97e8aa72610f2c,android.content.res.Resources,java.lang.String,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+67fff79ee029024d83ae350b,android.content.res.Resources,java.lang.String,RETURNS,0,9,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d0aa4b0cd55fbf3d1dfeba9f,android.content.res.TypedArray,android.content.Context,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+325eccbb25d2569dc404c8ae,android.content.res.TypedArray,android.content.res.Resources,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f9ba7a02e4a1f5dc5535434e,android.content.res.TypedArray,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+41273301716cba24c40c96ff,android.content.res.TypedArray,java.lang.String,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+40d874f5874646b0323afad4,android.content.res.TypedArray,java.lang.String,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+586aef0edd5524a2fdf8eb89,android.graphics.Bitmap,android.widget.ImageView,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+664a9b9ce239aa0351f77d60,android.graphics.NinePatch,android.graphics.Bitmap,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e50eda38a3ac69332ff8cd8f,android.graphics.NinePatch,android.view.View,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+b3f8aae6820dfd9de43712e0,android.graphics.NinePatch,android.widget.Button,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+818d06a92172d2d7385df45b,android.graphics.NinePatch,java.lang.String,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3706a1f606ffc2a417a5462d,android.graphics.drawable.AnimationDrawable,android.content.res.Resources,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0700dd69d2a010fa403ce940,android.graphics.drawable.AnimationDrawable,android.graphics.drawable.Drawable,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+544e26e994d83ef5ebf970f4,android.graphics.drawable.AnimationDrawable,android.graphics.drawable.Drawable,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+782c99d589e66f192d86bda5,android.graphics.drawable.AnimationDrawable,android.widget.ImageView,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+426ac785ab07d5e614a7d971,android.graphics.drawable.BitmapDrawable,android.content.res.Resources,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4138abff503d1eca1dd6f1e8,android.graphics.drawable.BitmapDrawable,android.graphics.Bitmap,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+823005e30674663089544ad9,android.graphics.drawable.BitmapDrawable,android.graphics.Bitmap,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+4accf8d07f923a0fad7b2c67,android.graphics.drawable.BitmapDrawable,android.graphics.Bitmap,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3e5c398d589ccdbad17efbc4,android.graphics.drawable.BitmapDrawable,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d828a66a7fd48e2d30f3ff53,android.graphics.drawable.BitmapDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+199833d9a7bd871c692117e5,android.graphics.drawable.BitmapDrawable,java.lang.String,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1192b173eaef7a3c0a9e3ac2,android.graphics.drawable.ClipDrawable,android.content.res.Resources,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7e09b9f08c8eaa905a5a7767,android.graphics.drawable.ClipDrawable,android.graphics.drawable.Drawable,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9f54affc9629fee92fc5e72d,android.graphics.drawable.ClipDrawable,android.graphics.drawable.Drawable,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+5491823e347cd3dd06b0fc65,android.graphics.drawable.ClipDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9bda94dd311749cc62d33f63,android.graphics.drawable.Drawable,android.content.res.Resources,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6bf707f153d61bd015a75c8f,android.graphics.drawable.Drawable,java.lang.String,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3c51af44f19ea3ea6ad80af7,android.graphics.drawable.GradientDrawable,android.content.res.Resources,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a23514049335708a05ba4d25,android.graphics.drawable.GradientDrawable,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+84a9310673290a7da2948745,android.graphics.drawable.GradientDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+48f035ef98c10950949f8ea2,android.graphics.drawable.InsetDrawable,android.content.res.Resources,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b041109016a9983ff35c011a,android.graphics.drawable.InsetDrawable,android.graphics.drawable.Drawable,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+31741967c2ceb530200b6084,android.graphics.drawable.InsetDrawable,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a099e136027cc563a556a4cf,android.graphics.drawable.InsetDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bede62de2475fdef6545f75d,android.graphics.drawable.NinePatchDrawable,android.content.res.Resources,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7f4c8f3509494ada00b5d0c7,android.graphics.drawable.NinePatchDrawable,android.graphics.Bitmap,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b11b97c3a75ff146303b5b65,android.graphics.drawable.NinePatchDrawable,android.graphics.NinePatch,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e6f7d9f2b9df8f75b57d9984,android.graphics.drawable.NinePatchDrawable,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5944e907ecbc8c3d708c2270,android.graphics.drawable.NinePatchDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4200d7dca0a7bed9e5a230e4,android.graphics.drawable.NinePatchDrawable,java.lang.String,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+376f06e0303ef83ac7cbe7b8,android.graphics.drawable.ScaleDrawable,android.content.res.Resources,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+11b392567209663e28b49ce1,android.graphics.drawable.ScaleDrawable,android.graphics.drawable.Drawable,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b2cd88e862b595bea8baa75a,android.graphics.drawable.ScaleDrawable,android.graphics.drawable.Drawable,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+33cb3069e147464121a5d900,android.graphics.drawable.ScaleDrawable,android.graphics.drawable.Drawable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bf8be5f32558d63b2e0bb0e1,android.graphics.drawable.TransitionDrawable,android.graphics.drawable.Drawable,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fe644f98ddf04fd66ea01809,android.graphics.drawable.TransitionDrawable,android.graphics.drawable.Drawable,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+7f3b9c9466834fe144a8b454,android.graphics.drawable.TransitionDrawable,android.view.View,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+022fac8be118976ccffcda67,android.os.Bundle,java.lang.Object,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8deb6dfd7bca131cebeac99f,android.os.Bundle,java.lang.String,ACCEPTS,0,71,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+dda4715eee3748673faf5f6d,android.os.Bundle,java.lang.String,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9f47cf38f69ff857c3cb8514,android.view.View,android.content.Context,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f74436d761fdb6861fe95ed3,android.view.View,android.content.Context,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cef402bad705217b8fcedb7b,android.view.View,android.content.res.Resources,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f9d8faad9b85835151f59726,android.view.View,android.graphics.Bitmap,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6ba3fb4eea892291f0c0b1c7,android.view.View,android.graphics.drawable.Drawable,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c23e47b8b10225a709d5f6ae,android.view.View,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a72d46287e0934a6cda3e372,android.view.View,android.os.Bundle,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+512d4bffe3c05e85c950ea6d,android.view.View,android.view.animation.Animation,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+da89096a02c3fd1709c4ee95,android.view.View,android.view.animation.Animation,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b299d66db650d41d5b48a534,android.view.View,java.lang.Object,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f3c858f4dce3ed951d6e0157,android.view.View,java.lang.Object,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cb72f41dd2454d308bcf379d,android.view.Window,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+02ce52a0575ec7f43bd2b935,android.view.Window,android.content.Context,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+16b345f40f3283040a58c439,android.view.Window,android.content.res.TypedArray,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c3b34de355d787b204c5dd2e,android.view.Window,android.graphics.drawable.Drawable,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+39cea10752afd3d16fca60e9,android.view.Window,android.os.Bundle,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+91ec7ddb59922e75501cb31c,android.view.Window,android.os.Bundle,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e778c3e58ed1ff749ac13da2,android.view.Window,android.view.View,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cc0713f2d64e4ca82eb68586,android.view.Window,android.view.View,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+34094b4f383feedb83dae54a,android.view.Window,java.lang.String,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+142a88d0dbaa7a5802bbd831,android.view.animation.AccelerateDecelerateInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f58ec77098751184d3179f0d,android.view.animation.AccelerateDecelerateInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+457ec313e81fdc67e9823386,android.view.animation.AccelerateInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+721f1e9cfe20a92136427c2b,android.view.animation.AccelerateInterpolator,android.view.animation.AlphaAnimation,CONFIGURES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+6594aaeff76f3da27477735a,android.view.animation.AccelerateInterpolator,android.view.animation.Animation,CONFIGURES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+0bd76b3b2859b480ab91640a,android.view.animation.AccelerateInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1968a3ad41fa7c96aba43cd6,android.view.animation.AccelerateInterpolator,android.view.animation.LinearInterpolator,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+5f255f9e5ec5539da8629a18,android.view.animation.AlphaAnimation,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5a83ce151b6e44eab7261e84,android.view.animation.AlphaAnimation,android.view.animation.Animation,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a8f7254d3291875bca6ce891,android.view.animation.AlphaAnimation,android.view.animation.AnimationSet,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+849a06a5905a6f2dfc2ad481,android.view.animation.Animation,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5bcaa6c6aeadd716980ac95d,android.view.animation.Animation,android.view.animation.Interpolator,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4fa4668b1f2793e971143d6b,android.view.animation.Animation,android.view.animation.Interpolator,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+bb9f0beeb9e001f2b2f1c381,android.view.animation.Animation,android.view.animation.Interpolator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cdc4eb21b0ebc80e3a61a4d6,android.view.animation.Animation,android.view.animation.LinearInterpolator,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2e77472aba573b9f42d6d80b,android.view.animation.AnimationSet,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f117cbe41e146537e4f203b4,android.view.animation.AnimationSet,android.view.animation.Animation,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+705f3f721e996aa4725f75f7,android.view.animation.AnimationSet,android.view.animation.Animation,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+80b1e60abb03945e3750eb7d,android.view.animation.AnimationSet,android.view.animation.Interpolator,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+8908a6f9808a8643be72086d,android.view.animation.AnimationUtils,android.content.Context,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+432c4b7ace02a133efda17e2,android.view.animation.AnimationUtils,android.content.Context,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2cadc374d33f74235af7d3f1,android.view.animation.AnimationUtils,android.view.animation.Animation,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fc38ed5284e34afb9808775f,android.view.animation.AnimationUtils,android.view.animation.Interpolator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+07859661f3e271926eedeb44,android.view.animation.AnticipateInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6803fe864674694cac7a5b1b,android.view.animation.AnticipateInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+73e6f35ac92ec47b4b58068f,android.view.animation.CycleInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c06820bce537311abd3df3fe,android.view.animation.CycleInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+505fadd1e34e5d2343c41110,android.view.animation.DecelerateInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+716612bd33e16961dc3792bf,android.view.animation.DecelerateInterpolator,android.view.animation.AlphaAnimation,CONFIGURES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+63cbe54ffd95e197df9257c3,android.view.animation.DecelerateInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+175996e84e4b708035f1532b,android.view.animation.LinearInterpolator,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b9e1636097c063f1e2afd09a,android.view.animation.LinearInterpolator,android.view.animation.Interpolator,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1e9cec67c20b93e434d82e75,android.view.animation.LinearInterpolator,android.view.animation.RotateAnimation,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+9d7ab45014467eaf0370cbc7,android.view.animation.RotateAnimation,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+94531c0e2b7163c76062efe3,android.view.animation.RotateAnimation,android.view.animation.Animation,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8bfbeb0d1c9c5d8037e8a97a,android.view.animation.RotateAnimation,android.widget.ImageView,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2bc03b827d7ce2d8483c25e5,android.view.animation.TranslateAnimation,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6e689cba990f2ddf544c102e,android.view.animation.TranslateAnimation,android.view.animation.Animation,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+88e4591c4ee5b181331014c1,android.widget.Button,android.content.Context,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2b26cc769c61c609210742ce,android.widget.Button,android.widget.TextView,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+385324b9387f351508e058af,android.widget.ImageView,android.content.Context,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+beddf6a9ddd72504f3fb47fa,android.widget.ImageView,android.graphics.Bitmap,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+27949dc7e0e73ad6cacead37,android.widget.ImageView,android.graphics.drawable.Drawable,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+43bfeb4dbd8afc2eeec03722,android.widget.ImageView,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4834427a0e3846c0a15e4070,android.widget.ImageView,android.view.View,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+69aaa4843a68238490205f3f,android.widget.TextView,android.content.Context,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+13fb3dea2f563466b09a5fbf,android.widget.TextView,android.content.res.TypedArray,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8a95ff1a10c5beab986249d8,android.widget.TextView,android.graphics.drawable.Drawable,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2625c235b1ac8265144f5029,android.widget.TextView,android.graphics.drawable.Drawable,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9630ab02e6c726ff980c0d75,android.widget.TextView,android.os.Bundle,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3f4abfa48ea6874efb74e3be,android.widget.TextView,android.os.Bundle,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+72d3aa4001374b431fe80931,android.widget.TextView,android.view.View,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2085016ae45818f3f3334c08,android.widget.TextView,java.lang.String,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+02baf0a0f3502c1edb9f5d42,android.widget.TextView,java.lang.String,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1c18e99b5f5c156d8ebb790e,java.lang.Object,java.lang.String,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+131e8be66022df7188d6b10a,java.lang.String,java.lang.Object,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.

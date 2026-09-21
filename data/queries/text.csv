@@ -1,0 +1,30 @@
+﻿How do I get extra data from intent on Android?,Intent
+Android: How to catch every touch-input of the Soft Keyboard?,CharSequence,KeyEvent
+How do I center text horizontally and vertically in a TextView on Android?,TextView
+How can links inside an Android TextView be made clickable?,TextView,View
+How to add custom InputMethodService to Activity?,InputMethod
+How to add manifest permission to android application?,permission
+Is an Android Content Provider an implementation of the Repository pattern?,Cursor
+How to check if a service is running on Android?,Service,Intent
+How To Convert A Bitmap Image To Uri,URI,Context
+How to convert a String array to a CharSequence?,CharSequence
+How to create a KeyEvent,KeyEvent
+How can a link URI inside an Android TextView be handled when clicked?,Uri,TextView
+How to deal with deprecated classes in Android to keep compatibility,Context
+How to get current InputMethodService,InputMethodService
+How to get word from CurrentInputConnection in android?,TextView,InputConnection
+How to have Android Service communicate with Activity,Intent,Service
+"How to hide soft input Keyboard when the Navigation drawer is being toggled , using fragments",View,Context
+How can text be copied to the Android clipboard?,ClipboardManager
+How to implement ripple effect in Android KeyboardView?,KeyboardView
+How to know if an InputMethod is enabled?,InputMethod
+How to link two xml pages in Android app when a button is clicked?,Intent
+How to make a UITextField move up when keyboard is present?,Keyboard
+How to obtain AssetManager without reference to Context?,Context
+How to properly set InputType for EditText?,InputType
+How to send a KeyEvent if a gesture is detected,KeyEvent
+How to send and receive multiple data and data-types through Clipdata in android drag and drop?,Clipdata,View,CharSequence
+How to Set Opacity (Alpha) for View in Android,TextView,Context
+How to test InputMethodService,InputConnection
+What's the best way to iterate an Android Cursor?,Cursor
+When does InputConnection become invalid?,InputConnection

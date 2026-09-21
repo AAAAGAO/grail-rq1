@@ -1,0 +1,147 @@
+﻿edge_id,source,target,relation,symmetric,support_count,fact_status,retrieval_status,scope_policy
+fb8dd8b1456dd1304daa7828,java.lang.Iterable,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f847e89fa83eaeed7c928cb4,java.lang.Object,java.lang.String,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7b4767a3059e07ca2bdba065,java.lang.String,java.lang.Comparable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fe6bd71b61d342c6fad4ce78,java.lang.String,java.lang.Iterable,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c721f8248977817fe2ab851d,java.lang.String,java.lang.Object,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f119fb52f346b8373598ff43,java.util.ArrayList,java.lang.Object,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b108eff30f7d2f87245f3e87,java.util.ArrayList,java.lang.Object,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f10d7f8a63c9283f26d118b5,java.util.ArrayList,java.util.Collection,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+34922ec799c53c576d544b8c,java.util.ArrayList,java.util.Collections,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+bd154e858befa046292cd6cd,java.util.ArrayList,java.util.Comparator,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+005834d162205a57f98ea4f4,java.util.ArrayList,java.util.HashSet,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+7b93aeb4a74080d909ed4f94,java.util.ArrayList,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+db0e8b2fdfe3418d7058acf2,java.util.ArrayList,java.util.LinkedHashSet,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+733d647a492a773b809816e5,java.util.ArrayList,java.util.List,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+950ae4bc93d3daa7603a0ceb,java.util.ArrayList,java.util.List,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0ac7466ebf54ddc9c7f30526,java.util.ArrayList,java.util.Map.Entry,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+56db5c0da2acf6ea1ec7f1cf,java.util.Collection,java.lang.Iterable,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1675c970188305092a383ff0,java.util.Collection,java.lang.Object,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e720383a87a37d51c2b571b8,java.util.Collection,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ea6e9a89e1981dc773d10314,java.util.Collection,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3880c29b7812621fda936467,java.util.Collections,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+392334e6b7a41b6f3efd54a0,java.util.Collections,java.util.ArrayList,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cc8c80c92b6e0ec58c0fa55d,java.util.Collections,java.util.Collection,ACCEPTS,0,11,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+df32400287dab053fc3a6f1b,java.util.Collections,java.util.Collection,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d766a2b831c9719701258a46,java.util.Collections,java.util.Comparator,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+35d105f7170c381dc910fc83,java.util.Collections,java.util.Comparator,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+566cda7ffe30a802d3bbe8c4,java.util.Collections,java.util.Comparator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+417b19316d6ddbda78548ac8,java.util.Collections,java.util.Deque,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+db0d778fa1c25e994211619d,java.util.Collections,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ed2adbe5e086244de2ae35be,java.util.Collections,java.util.List,ACCEPTS,0,17,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+23cd2d45059d874fa06d0f31,java.util.Collections,java.util.List,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+f76d5f9ae42460b2c4af6241,java.util.Collections,java.util.List,RETURNS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+395591c54b2ce9fd4a5514c9,java.util.Collections,java.util.Map,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fa4a45c24b3eec622a3d4c4d,java.util.Collections,java.util.Map,RETURNS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+af23c51cbd23000bd971b21d,java.util.Collections,java.util.NavigableMap,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+dbffbd713530d2b23abf0978,java.util.Collections,java.util.NavigableMap,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+36c229b4508e5110cf80a502,java.util.Collections,java.util.NavigableSet,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+891d95f1b2a654523acb1940,java.util.Collections,java.util.NavigableSet,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c26555ad9caf09931f257765,java.util.Collections,java.util.PriorityQueue,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+4659bcd81a498db91f97ee35,java.util.Collections,java.util.PriorityQueue,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+b313f91f2761bf73ef0a047a,java.util.Collections,java.util.Queue,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+65ff979df095d780dcb34530,java.util.Collections,java.util.Queue,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0e1cb42fcd163bf9ad55d572,java.util.Collections,java.util.Set,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+09efe5f279810dca9c7adcd5,java.util.Collections,java.util.Set,RETURNS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f89eee8c4412d2a9524a00d2,java.util.Collections,java.util.SortedMap,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e0bcbc28caa09d6bc2d0ea6b,java.util.Collections,java.util.SortedMap,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4a51bdeb252dd34e0bbe49de,java.util.Collections,java.util.SortedSet,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3be67a0228b4661d50d0e7b3,java.util.Collections,java.util.SortedSet,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8ef10823b764347e8ef8c558,java.util.Collections,java.util.TreeSet,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+c5d4842b5858b0a61a1ec5bf,java.util.Comparator,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+773ba1497a9fb56704245162,java.util.Comparator,java.util.Map.Entry,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+a685610fc73bc27d14eb47f7,java.util.Comparator,java.util.TreeMap,CONFIGURES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+626bf2d00c01a8c1d556bdfb,java.util.Deque,java.lang.Object,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f3ef05d356d1f0b6d2fb3b25,java.util.Deque,java.util.Iterator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+de722d5eef28d0f069a10be2,java.util.Deque,java.util.Queue,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d00385a8ec14ecfda8178789,java.util.HashMap,java.lang.Object,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1fbfd04a5aac5d4c249b0f69,java.util.HashMap,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+56c7be4a67f32f63beafe284,java.util.HashMap,java.util.Collection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5d8f5c830f84e04712151136,java.util.HashMap,java.util.Map,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cc9d008994f48271b3285fb0,java.util.HashMap,java.util.Map,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4cabcb38d0feab32a347e264,java.util.HashMap,java.util.Map.Entry,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+6ea1e9df0147ec46abd6134c,java.util.HashMap,java.util.Set,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e0fbb973e5920d4cbd880d96,java.util.HashMap,java.util.TreeMap,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+23e534c8c851091c87b5bdd8,java.util.HashSet,java.lang.Object,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9159b0a6e23e0d5e5dde7ff2,java.util.HashSet,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+154ef5a58447d25598b2d607,java.util.HashSet,java.util.Collection,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+944be21983ef6c8bc2343deb,java.util.HashSet,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ad1e7828d0983eb7eca3cdf0,java.util.HashSet,java.util.LinkedHashSet,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+f38d29bd93c1a789a4b6ce77,java.util.HashSet,java.util.Set,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+710645628aa3f96f57f1d9d3,java.util.HashSet,java.util.TreeSet,ALTERNATIVE_TO,1,3,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+a2947327d20f65c9c0dc22ea,java.util.Iterator,java.util.Map.Entry,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2f5156f07545f6552eda6557,java.util.Iterator,java.util.PriorityQueue,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+07a591ae03e7f95e1314e8d0,java.util.LinkedHashSet,java.util.Collection,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+90c3739a32f188334ccc5d65,java.util.LinkedHashSet,java.util.HashSet,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+80e9dda6234a9741075da75e,java.util.LinkedHashSet,java.util.Set,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c9abd2fd52f1454090c7746a,java.util.LinkedHashSet,java.util.TreeSet,ALTERNATIVE_TO,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+f38fad6a16097d5ef210cd0b,java.util.LinkedList,java.lang.Object,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+dbd09005fd6589f0911b9329,java.util.LinkedList,java.lang.Object,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2b954a5dab3292bb208d2cac,java.util.LinkedList,java.util.Collection,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b093ed9ee13bf9fc4859a8c0,java.util.LinkedList,java.util.Deque,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a9030e55d4a20eb5a27d8418,java.util.LinkedList,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fcbf1777f090510d083f9923,java.util.LinkedList,java.util.List,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c57abc8fcdb16f3027ac9493,java.util.List,java.lang.Object,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+00e10dc031343f978e900766,java.util.List,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5ab24211a4c5b19a162bba3b,java.util.List,java.util.Collection,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f9966877abe2fa3b595671a9,java.util.List,java.util.Collection,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6fbea21c6f0edf5670f2732d,java.util.List,java.util.Comparator,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3700156c90cf8491131a8cc6,java.util.List,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+22d85d1b50d33b4c56483d3f,java.util.Map,java.lang.Object,ACCEPTS,0,7,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c411d85eeae9be7cbb145ed2,java.util.Map,java.util.Collection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9787d98414113c767368d484,java.util.Map,java.util.Set,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8bb38625d364861373f5565a,java.util.Map.Entry,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a64105f98fac3fa55abcd3e3,java.util.Map.Entry,java.util.Comparator,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7ce8a793bf6e6b3113a6ffe7,java.util.Map.Entry,java.util.Comparator,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+334eac08e03d2680edde6bc2,java.util.Map.Entry,java.util.Map,NESTED_IN,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9650bcad32a1d2602d6820c0,java.util.Map.Entry,java.util.Set,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+29918fc60574a812ea133463,java.util.NavigableMap,java.util.Map.Entry,RETURNS,0,8,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+59ebd3eebecb0e753e2fb0a3,java.util.NavigableMap,java.util.NavigableSet,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fafb11449d4059b195f7c6cf,java.util.NavigableMap,java.util.SortedMap,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a138486869ddfa1580bce19a,java.util.NavigableMap,java.util.SortedMap,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2709bd921959f87c0ba07563,java.util.NavigableSet,java.util.Iterator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b561bfc362f73bfade659f76,java.util.NavigableSet,java.util.SortedSet,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f893db64b231fbfc07879e61,java.util.NavigableSet,java.util.SortedSet,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7e2996c264b6c7d692ece4f0,java.util.PriorityQueue,java.lang.Object,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+286471c770429aa3e684a5fc,java.util.PriorityQueue,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3101ed2bcf6c72b394514351,java.util.PriorityQueue,java.util.Collection,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b1e7f61af7f2a8187770b690,java.util.PriorityQueue,java.util.Comparator,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5b17633eca5199fe8490574b,java.util.PriorityQueue,java.util.Comparator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2ca8dc1816da4406be659fb0,java.util.PriorityQueue,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+daf6d0bc7c4c0fc6c25ac23d,java.util.PriorityQueue,java.util.SortedSet,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+108be8484b31fa67fae7d4dd,java.util.Queue,java.util.Collection,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8befebc01c77f62df17e6bfe,java.util.Set,java.lang.Object,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+977bebfd7903a12e7117c44b,java.util.Set,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+62b333dd0c60dcc531fce88e,java.util.Set,java.util.Collection,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fe085c0e2125d996e714e0d0,java.util.Set,java.util.Collection,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7f0ad747b7d116e1aeacacb2,java.util.Set,java.util.Iterator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4911b95c98d78a4ec23ef4cc,java.util.SortedMap,java.util.Collection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+caa6c52ee986c717b48e4bd4,java.util.SortedMap,java.util.Comparator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b5864fc45287249183ba5390,java.util.SortedMap,java.util.Map,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5773d0a6f15c4e6ec1c96295,java.util.SortedMap,java.util.Set,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1bce804fe9152630e8e93b0b,java.util.SortedSet,java.util.Comparator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+971431ced6a269a14cdea19c,java.util.SortedSet,java.util.Set,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+eb9a127cc9cf9738405334bc,java.util.Stack,java.lang.Object,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+72c637c6d485b0bf8317bbc1,java.util.TreeMap,java.lang.Object,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+de776c4c009387faed4e97d4,java.util.TreeMap,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b6f1c5ea5fc8b6ccadb786d3,java.util.TreeMap,java.util.Collection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cb7e222b51cd41fecf7dd6f6,java.util.TreeMap,java.util.Comparator,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+216e5f75ac4c56f4f237ae38,java.util.TreeMap,java.util.Comparator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2cd27ca53f0c8a9b1f0ea727,java.util.TreeMap,java.util.Map,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1e2caf32623f5ef32f97f537,java.util.TreeMap,java.util.Map.Entry,RETURNS,0,8,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1bdd17abb8f196bde1eeb233,java.util.TreeMap,java.util.NavigableMap,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+62e84d88ef79eafbba490424,java.util.TreeMap,java.util.NavigableMap,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+92276d3c5773ade8bc34ab7d,java.util.TreeMap,java.util.NavigableSet,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c18247031d1ccabf4ad3c86b,java.util.TreeMap,java.util.Set,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3d98ad159ac7196e29256f0d,java.util.TreeMap,java.util.SortedMap,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1ec46d73149066bdb5c24120,java.util.TreeMap,java.util.SortedMap,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8a71ff6e580cc9d6dfb2f2a9,java.util.TreeSet,java.lang.Object,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d6435d7a0bc72098d9bbe076,java.util.TreeSet,java.lang.Object,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a3e6ca7c2df520f467dd59e8,java.util.TreeSet,java.util.Collection,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+37520b5fa8ca628a06803db7,java.util.TreeSet,java.util.Comparator,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c1135c8232d07c705569b90f,java.util.TreeSet,java.util.Comparator,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3d291d9cfbf7d1609503c127,java.util.TreeSet,java.util.Iterator,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5eaccc8dac9c3dbe93b547de,java.util.TreeSet,java.util.NavigableSet,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+713f753698bbcf6271585c94,java.util.TreeSet,java.util.NavigableSet,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3b3a8239451f236879e5114f,java.util.TreeSet,java.util.SortedSet,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1143e57545077bd509abed45,java.util.TreeSet,java.util.SortedSet,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.

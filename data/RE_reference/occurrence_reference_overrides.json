@@ -1,0 +1,266 @@
+{
+  "DATA-0013": {
+    "ku_sha256": "c477446d40b05191b5496714b3fa022bfaf96007b5ea299ea59110565288ba37",
+    "fields": {
+      "previous_reference": "Package-level documentation covering Java and Android networking classes used to open and manage network connections.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/net/package-summary",
+      "reference": "The knowledge unit describes the use of network connections for storing and retrieving data on web-based services. It identifies `java.net.*` and `android.net.*` as the specific packages to be used for performing these network operations.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#DATA-0013",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The KU explicitly lists two packages (`java.net.*` and `android.net.*`) and defines their role in handling network operations for data storage and retrieval. This aligns with the 'package_document' entity kind by describing the purpose and usage context of these package families."
+    }
+  },
+  "DATA-0014": {
+    "ku_sha256": "c477446d40b05191b5496714b3fa022bfaf96007b5ea299ea59110565288ba37",
+    "fields": {
+      "previous_reference": "Package-level documentation covering Java and Android networking classes used to open and manage network connections.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/net/package-summary",
+      "reference": "The knowledge unit describes the usage of network connections for storing and retrieving data via web-based services. It identifies `java.net.*` and `android.net.*` as the specific packages containing the classes required to perform these network operations.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#DATA-0014",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The KU explicitly lists the packages (`java.net.*` and `android.net.*`) associated with network operations, fulfilling the requirement for a package-summary reference by identifying the packages and their role."
+    }
+  },
+  "DATA-0030": {
+    "ku_sha256": "381619770bbf74ce284af24feac0d3654ed099838e947cb81c64355b248c0f16",
+    "fields": {
+      "previous_reference": "Package-level documentation covering Java and Android networking classes used to open and manage network connections.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/net/package-summary",
+      "reference": "The Android backup package provides services for copying persistent application data to remote cloud storage, enabling automatic restoration of data and settings when an application is re-installed after a factory reset or device upgrade. It includes the BackupManager API which coordinates with customizable backup transports to handle data exchange between the application and cloud storage.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#DATA-0030",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly describes the functionality and components (BackupManager, backup transport) associated with Android's backup service/package, matching the 'package-summary' entity kind."
+    }
+  },
+  "GRAPHICS-0109": {
+    "ku_sha256": "bb0c9ca36f03261c373926f0c5398226cfee3d99dcdfa5a4ac64d53cfb4206e3",
+    "fields": {
+      "previous_reference": "Package documentation for Android property-animation classes, including Animator, evaluators, and reusable interpolators.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/animation/package-summary",
+      "reference": "The `android.animation` package provides the core APIs for the property animation system, including classes like `Animator`, `ValueAnimator`, `ObjectAnimator`, and `AnimatorSet`. It also defines evaluators such as `IntEvaluator`, `FloatEvaluator`, and `ArgbEvaluator` to calculate animated values.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#GRAPHICS-0109",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly identifies `android.animation` as the primary package for the property animation system and details its key components (Animators and Evaluators), which aligns with the 'package-summary' API reference type."
+    }
+  },
+  "GRAPHICS-0160": {
+    "ku_sha256": "f654db54523ef49e851b2b0ef1ae3df76d4f8e916609514d165c85ce7ad25ee9",
+    "fields": {
+      "previous_reference": "Package documentation for Android property-animation classes, including Animator, evaluators, and reusable interpolators.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/animation/package-summary",
+      "reference": "The `android.graphics.drawable` package provides a custom 2D graphics library for drawing shapes and images. It contains the common classes used for two-dimensional drawing, including the general abstraction `Drawable` and its subclasses such as `BitmapDrawable`, `ShapeDrawable`, `PictureDrawable`, and `LayerDrawable`.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#GRAPHICS-0160",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly describes the `android.graphics.drawable` package, identifying it as the location for common 2D drawing classes and defining the `Drawable` abstraction along with specific subclasses. This aligns perfectly with the 'package-summary' API reference type."
+    }
+  },
+  "GRAPHICS-0311": {
+    "ku_sha256": "6d3f5d7be095c6c0c516209166ba2bc8f5375d571c5460d78552752b9dc73df6",
+    "fields": {
+      "previous_reference": "Package documentation for Android property-animation classes, including Animator, evaluators, and reusable interpolators.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/animation/package-summary",
+      "reference": "The android.view.animation package provides a set of common interpolators for the Android animation system. These interpolators modify elapsed time fractions to define how animation values change over time, such as linearly or with acceleration/deceleration.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#GRAPHICS-0311",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The KU explicitly identifies 'android.view.animation' as the package containing common interpolators and describes their role in modifying animation timing fractions. This aligns with the 'package-summary' request by defining the package's purpose and contents within the context of animations."
+    }
+  },
+  "GRAPHICS-0415": {
+    "ku_sha256": "bb0c9ca36f03261c373926f0c5398226cfee3d99dcdfa5a4ac64d53cfb4206e3",
+    "fields": {
+      "previous_reference": "Package documentation for Android property-animation classes, including Animator, evaluators, and reusable interpolators.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/reference/android/animation/package-summary",
+      "reference": "The `android.animation` package provides the core APIs for the property animation system, including classes like `Animator`, `ValueAnimator`, `ObjectAnimator`, and `AnimatorSet`. It also defines evaluators such as `IntEvaluator`, `FloatEvaluator`, and `ArgbEvaluator` to calculate animated values, while leveraging interpolators from `android.view.animation`.",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#GRAPHICS-0415",
+      "official_reference_available": "0",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly identifies `android.animation` as the primary package for the property animation system and details its key components (Animators, Evaluators) and their relationship with `android.view.animation` (Interpolators). This aligns perfectly with a package-summary reference for `android.animation`."
+    }
+  },
+  "JODATIME-0012": {
+    "ku_sha256": "5ba20da4af70cf6c2b69765a0dad3e1d9ca0e9f01769cd7fbc5af78c219bd6d1",
+    "fields": {
+      "previous_reference": "Returns the year property of a Joda-Time DateTime and exposes property operations for querying or changing that year field.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://www.joda.org/joda-time/apidocs/org/joda/time/DateTime.html",
+      "reference": "",
+      "reference_origin": "pending_occurrence_verification",
+      "reference_locator": "",
+      "official_reference_available": "0",
+      "reference_alignment_status": "unverified_identity",
+      "reference_review_reason": "Short-name reference does not uniquely identify this occurrence. Original description retained only for review; Qwen generation blocked by HTTP 401 invalid_api_key."
+    }
+  },
+  "JODATIME-0035": {
+    "ku_sha256": "42793b35a855751605b88029d0c3e1e86b004b6e7a5109eb5bfe13cca9d24c0c",
+    "fields": {
+      "previous_reference": "Returns the year property of a Joda-Time DateTime and exposes property operations for querying or changing that year field.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://www.joda.org/joda-time/apidocs/org/joda/time/DateTime.html",
+      "reference": "",
+      "reference_origin": "pending_occurrence_verification",
+      "reference_locator": "",
+      "official_reference_available": "0",
+      "reference_alignment_status": "unverified_identity",
+      "reference_review_reason": "Short-name reference does not uniquely identify this occurrence. Original description retained only for review; Qwen generation blocked by HTTP 401 invalid_api_key."
+    }
+  },
+  "JODATIME-0037": {
+    "ku_sha256": "1c1d4ae0fc9b26e9ee8cff8c63cedf92ced5d798a5d93f06ad4604bb5b9b6c35",
+    "fields": {
+      "previous_reference": "Returns the year property of a Joda-Time DateTime and exposes property operations for querying or changing that year field.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://www.joda.org/joda-time/apidocs/org/joda/time/DateTime.html",
+      "reference": "",
+      "reference_origin": "pending_occurrence_verification",
+      "reference_locator": "",
+      "official_reference_available": "0",
+      "reference_alignment_status": "unverified_identity",
+      "reference_review_reason": "Short-name reference does not uniquely identify this occurrence. Original description retained only for review; Qwen generation blocked by HTTP 401 invalid_api_key."
+    }
+  },
+  "MATH-0120": {
+    "ku_sha256": "d13d541825928afdc112f218ece754d4f896cb65a7f1975d7b589b2b0cd27d29",
+    "fields": {
+      "previous_reference": "Math.signum returns a value representing the sign of a numeric argument, distinguishing negative, zero, and positive values. It can be used to compare signs of computed values, such as when narrowing an interval during root finding.",
+      "previous_reference_origin": "qwen3.8-max",
+      "previous_reference_locator": "model:qwen3.8-max",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly demonstrates the usage of `Math.signum` to obtain the sign of a number and describes its behavior regarding zero and NaN values, which aligns with the standard definition of this API.",
+      "official_reference_available": "0",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference": "The `Math.signum` method returns the sign of a double or float value. It returns -1.0 if the argument is negative, 1.0 if positive, and 0.0 if zero.",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#MATH-0120"
+    }
+  },
+  "OFFICIAL-0454": {
+    "ku_sha256": "485467f0e0465cbf4aa83ae40c9736173cc5c44e10e41e181b158104c3cdb027",
+    "fields": {
+      "previous_reference": "Application-defined Card data type used as the element type in the collection example; its instances are counted or compared through the collection operations shown in the knowledge unit.",
+      "previous_reference_origin": "qwen3.8-max-correction",
+      "previous_reference_locator": "model:qwen3.8-max",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "qwen3.8-max-correction"
+    }
+  },
+  "OFFICIAL-1842": {
+    "ku_sha256": "ef528f34c64ec75bbb8681b70dfc30d7ec8fc6930a3749f212bc7cedc2a1e7e1",
+    "fields": {
+      "previous_reference": "Application-defined Card data type used as the element type in the collection example; its instances are counted or compared through the collection operations shown in the knowledge unit.",
+      "previous_reference_origin": "qwen3.8-max-correction",
+      "previous_reference_locator": "model:qwen3.8-max",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "qwen3.8-max-correction"
+    }
+  },
+  "RESOURCES-0022": {
+    "ku_sha256": "f29a6d26237c620cf9e62eb084883b2e354054be8e175acde222f798c7f6108b",
+    "fields": {
+      "previous_reference": "Android layout resource directory containing XML view hierarchies that define an activity or other user-interface layout and are inflated into View objects.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/guide/topics/resources/layout-resource",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "context_description_unverified_source"
+    }
+  },
+  "RESOURCES-0067": {
+    "ku_sha256": "508cf9a72ee7a8d08946ee965608bdd56fda7584058bf9698c021953226ffe4f",
+    "fields": {
+      "previous_reference": "Android layout resource directory containing XML view hierarchies that define an activity or other user-interface layout and are inflated into View objects.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/guide/topics/resources/layout-resource",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "context_description_unverified_source"
+    }
+  },
+  "RESOURCES-0094": {
+    "ku_sha256": "c35313603022addd4907a0965757eb6ed77950bbfb68643ce855445c36ac9702",
+    "fields": {
+      "previous_reference": "Android layout resource directory containing XML view hierarchies that define an activity or other user-interface layout and are inflated into View objects.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/guide/topics/resources/layout-resource",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "context_description_unverified_source"
+    }
+  },
+  "RESOURCES-0132": {
+    "ku_sha256": "4c56505bd158b47c428d1838690d9cb90540d2fc05aabfc46e8f0955a7717cdf",
+    "fields": {
+      "previous_reference": "Android layout resource directory containing XML view hierarchies that define an activity or other user-interface layout and are inflated into View objects.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/guide/topics/resources/layout-resource",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "context_description_unverified_source"
+    }
+  },
+  "RESOURCES-0180": {
+    "ku_sha256": "04fbf331ba4cc477682ec0e0c19ad5ccccac4e0a9da396099df62814a190992f",
+    "fields": {
+      "previous_reference": "Android layout resource directory containing XML view hierarchies that define an activity or other user-interface layout and are inflated into View objects.",
+      "previous_reference_origin": "official",
+      "previous_reference_locator": "https://developer.android.com/guide/topics/resources/layout-resource",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "context_description_unverified_source"
+    }
+  },
+  "TEXT-0123": {
+    "ku_sha256": "6b3191e47476a572d74d9665c2b2da3aab02cea5f8d2c3de37b90bbd3d446345",
+    "fields": {
+      "previous_reference": "In Android-related usage, a permission represents an access-control mechanism that can be declared or required to restrict access to components, data, or protected functionality. The excerpts show a service specifying android:permission in its manifest, while SMS handling typically also depends on the relevant messaging permissions.",
+      "previous_reference_origin": "qwen3.8-max",
+      "previous_reference_locator": "model:qwen3.8-max",
+      "reference_alignment_status": "context_consistent_not_source_verified",
+      "reference_review_reason": "Description matches the KU-level concept/API family; official wording and unique API identity are not established by this review.",
+      "official_reference_available": "0",
+      "reference_origin": "qwen3.8-max"
+    }
+  },
+  "TEXT-0142": {
+    "ku_sha256": "a3d6f0b6ab8f294185cf8eaccde8af913a9d2adddc53ebe327ac495b4cfac757",
+    "fields": {
+      "previous_reference": "In Android-related usage, a permission represents an access-control mechanism that can be declared or required to restrict access to components, data, or protected functionality. The excerpts show a service specifying android:permission in its manifest, while SMS handling typically also depends on the relevant messaging permissions.",
+      "previous_reference_origin": "qwen3.8-max",
+      "previous_reference_locator": "model:qwen3.8-max",
+      "reference_alignment_status": "generated_context_reviewed",
+      "reference_review_reason": "The knowledge unit explicitly describes the usage of the `BIND_TEXT_SERVICE` permission within the context of a spell checker manifest, defining its purpose and requirement.",
+      "official_reference_available": "0",
+      "reference_origin": "qwen3.8-flash_context_reviewed",
+      "reference": "The `android.permission.BIND_TEXT_SERVICE` permission is required in the manifest for a spell checker service to ensure that only the system can bind to it.",
+      "reference_locator": "eval_outputs/graph_reference_review_20260918/reviews.json#TEXT-0142"
+    }
+  }
+}
