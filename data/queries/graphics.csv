@@ -1,0 +1,30 @@
+﻿How to animate background of ActionMode of the ActionBar?,Resources,View,ArgbEvaluator,AnimatorUpdateListener,ValueAnimator
+Android how to chain  exploding  text animations in textView?,AnimatorListenerAdapter,AnimatorSet,Button,LinearLayout,ObjectAnimator,TextView,View
+Android: how to create a 9patch image from an inputstream?,Resources,Bitmap,NinePatchDrawable,Button
+How Can I do a listview from a click on button?,View
+How can ImageView and TextView fields be populated in a customized ListView item?,ImageView,TextView
+How do I add a second button android?,Button,View
+How do I animate smoothly the current progress for SendingProgressView?,AnimatorListenerAdapter,ValueAnimator,AnimatorUpdateListener,AccelerateDecelerateInterpolator,View
+How do I use an id from the layout file of a listview?,View,TextView,ImageView
+How do you put a floating action button (FAB) above a ListView in a Fragment in xml?,Drawable,Button,LinearLayout,ListView
+How does Android ObjectAnimator work?,ObjectAnimator,View
+How to add Editext and Button to Efficent Adapter which has a Icon and text,Button,LinearLayout,ListView,TextView
+How can Canvas draw one Bitmap over another in Android?,Canvas,Bitmap
+How to convert a Drawable to a Bitmap?,Bitmap,ImageView
+how to convert PictureDrawable into Bitmap,Bitmap,View,Canvas,Drawable
+How to create project which extends view interface of Android?,Button,View
+how to disable temporarily a button Android,Button
+How to Display blurred bitmap of screenshot using opengl es 2.0 on android?,GLES20
+How to draw a smaller ShapeDrawable inside another shapeDrawable programmatically,ShapeDrawable,Drawable
+how to draw image on surfaceview android,Canvas,Bitmap,Paint,SurfaceHolder
+How to fill cells of a GridView with lists of names?,ListView,TextView
+How to get the width and height of an android.widget.ImageView?,ImageView,TextView
+How to make a rounded surfaceview,SurfaceView,View
+How to make animation play indefinitely,ValueAnimator,ObjectAnimator,ArgbEvaluator
+how to make surfaceview transparent,SurfaceView
+How to make SurfaceView with transparent background?,SurfaceHolder,Bitmap,Paint,Canvas
+How can a Bitmap drawn on a Canvas be saved as a JPEG or PNG image?,Bitmap,Canvas
+How to set animator for left to right and inverse for Multiple Screens,ImageView,ObjectAnimator,View,AnimatorSet
+How to set Marker icon using fontawesome,BitmapDrawable,ImageView
+How to simply animate views in android,AnimatorSet,ObjectAnimator,View
+How to: draw shapes and text in the still image (png file) then put into ImageView?,Bitmap,Canvas

@@ -1,0 +1,52 @@
+﻿edge_id,source,target,relation,symmetric,support_count,fact_status,retrieval_status,scope_policy
+229bc07ee9ecd4d07b8840a8,android.accounts.AccountManager,android.app.Activity,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a5d50ffd36884de2aae34d57,android.accounts.AccountManager,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+05ffd387bf6d00db3b046a43,android.accounts.AccountManager,android.content.Intent,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3c80a036b39e266474246cbb,android.app.Activity,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3f2ac9ea3b9b4ce4526956fb,android.app.Activity,android.content.Intent,ACCEPTS,0,26,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0f0941b995f3cbeefcb52b5a,android.app.Activity,android.content.Intent,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c7da7288553c92bc2fa81c8a,android.app.Activity,android.content.SharedPreferences,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+485e60c4e3dd5423cdb5f5c4,android.app.Activity,android.database.Cursor,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8ad09884a684aee68a966c2a,android.app.Activity,android.database.Cursor,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c0e083d29222483be743b5b1,android.app.Service,android.content.Intent,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2dd308e0f8ebdd35d01fc135,android.app.admin.DeviceAdminReceiver,android.content.Context,ACCEPTS,0,10,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ef4aea3f0553cd64ea097443,android.app.admin.DeviceAdminReceiver,android.content.Intent,ACCEPTS,0,8,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ef7444d3f91d616ca44407fd,android.app.backup.BackupAgent,android.app.backup.BackupManager,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+1171c56761d1756eefaeff78,android.app.backup.BackupAgent,java.io.File,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d8f815dbf42d09f12dc27146,android.app.backup.BackupAgentHelper,android.app.backup.BackupAgent,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4c748e5ad870cc924078b34e,android.app.backup.BackupAgentHelper,android.app.backup.FileBackupHelper,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+8efad808ff827a53064e5ccd,android.app.backup.BackupManager,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+38c39def62fb22d999f4901d,android.app.backup.BackupManager,android.content.Context,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+966c7aaa7cdd97ff7dd4be1a,android.app.backup.FileBackupHelper,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+edd2e652728bb3ebca82d2a2,android.content.AbstractThreadedSyncAdapter,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+4a5cdb3887dc105f24f5c2a8,android.content.AbstractThreadedSyncAdapter,android.content.Context,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+23a6e1fbe6de9598ae33d13e,android.content.Context,android.content.Intent,ACCEPTS,0,16,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+af1d4a394899a1df30c330ee,android.content.Context,android.content.Intent,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+085a783228ee1ea4e6b1fae6,android.content.Context,android.content.Intent,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+504c4b6a39cd7cd1c21d9d5b,android.content.Context,android.content.SharedPreferences,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d77191f25a5ae4c043cc6796,android.content.Context,android.database.sqlite.SQLiteDatabase,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+07049fc8b8e9708955439db3,android.content.Context,java.io.File,RETURNS,0,8,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+29293679e9bfcc569e8ff0c9,android.content.Context,java.io.FileInputStream,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b4cccc150407b78befaf2166,android.content.Context,java.io.FileOutputStream,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8d58ca48eb5d7096c17873d7,android.content.Context,java.io.InputStream,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c9ec23417865fd5c77735ad1,android.content.Intent,android.content.Context,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c7eb110cb9124cc283b6076c,android.content.SharedPreferences,android.content.SharedPreferences.Editor,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+7d44203e7da4763039e742b0,android.content.SharedPreferences,android.content.SharedPreferences.Editor,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+968448caa2c633a43cb3b315,android.content.SharedPreferences.Editor,android.content.SharedPreferences,NESTED_IN,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+281e72e3f9473891c96e6347,android.database.sqlite.SQLiteDatabase,android.database.Cursor,RETURNS,0,10,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+089b275d13e9c747b4486d97,android.database.sqlite.SQLiteDatabase,java.io.File,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+668c72a12897524beabb0123,android.database.sqlite.SQLiteDatabase,java.io.File,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+eb631b316ddd0f78950fb659,android.database.sqlite.SQLiteOpenHelper,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a03bd8f78118a359207be0d1,android.database.sqlite.SQLiteOpenHelper,android.database.sqlite.SQLiteDatabase,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8f33c543765c5bf3ba2c41a2,android.database.sqlite.SQLiteOpenHelper,android.database.sqlite.SQLiteDatabase,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0024036c3ca6555ed3c9db58,android.os.Environment,java.io.File,RETURNS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ed6782b8902d7fef015304af,java.io.File,android.database.sqlite.SQLiteDatabase,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+fc474be043088e96ec1e34da,java.io.File,java.io.FileInputStream,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+3fccc5b43d78721febdfb10c,java.io.File,java.io.FileOutputStream,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+a5f782269aa5d7d0682ea835,java.io.FileInputStream,java.io.File,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+79092e9ef428d5224aed49d2,java.io.FileInputStream,java.io.FileOutputStream,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+250f2c354fcc1cd226738413,java.io.FileInputStream,java.io.InputStream,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1e7ffe6a6dd96141881d83cf,java.io.FileOutputStream,java.io.File,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ab9baf87e1d09fca69efa1de,java.io.FileOutputStream,java.io.InputStream,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2825a437ac808bffc7233327,java.io.FileOutputStream,java.io.OutputStream,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d03437062aa3dd56d77293d6,java.io.InputStream,java.io.OutputStream,COLLABORATES_WITH,1,2,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.

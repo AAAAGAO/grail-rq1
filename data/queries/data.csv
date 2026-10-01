@@ -1,0 +1,30 @@
+﻿How can an app detect folders or files on the SD card belonging to it?,SharedPreferences,Editor
+How can SQLiteOpenHelper return SQLiteDatabase?,Cursor,SQLiteDatabase,SQLiteOpenHelper
+How do DeviceAdminReceivers work?,DeviceAdminReceiver,Context
+How do I get extra data from intent on Android?,Intent
+How can BackupAgentHelper back up Android SharedPreferences?,BackupAgentHelper,SharedPreferencesBackupHelper,SharedPreferences
+How do I get the SharedPreferences from a PreferenceActivity in Android?,Activity,Context,SharedPreferences,Editor,File
+How do I pass data between Activities in Android application?,Intent
+How does context work on Android?,Context
+"How to backup email messages with sender name, email id and body?",AccountManager,Cursor
+How to call a method of a InfiniteViewPager fragment from activity,Activity,Context
+How to cancel an AlarmManager,Intent,AlarmManager,Context
+How to construct package URI using PackageManager in android,Intent,PackageInfo
+How to convert OutputStream to InputStream?,InputStream,OutputStream
+How to create context in android.content.Context and android.app.Activity?,Activity,Context
+How to exchange FileOutputStream for BufferedOutputStream,FileOutputStream,OutputStream
+How to extend SQLiteDatabase class?,SQLiteDatabase
+How can an Android app start an Activity from a non-Activity Java class?,Context,Intent,Activity
+How to have Android Service communicate with Activity,Intent,Activity
+How to pass data from Afragment to Bactivity on xamarin android?,Activity,Intent
+How to read/write preferences from a DialogFragment?,Context,SharedPreferences,Editor
+How to return a result (startActivityForResult) from a TabHost Activity?,Intent,Activity
+How to save an image path in SharedPreferences in Android app? my code dont work,Context,Editor
+How to start new activity on button click,Intent
+How to use getSharedPreferences in a AppCompatActivity,Context,SharedPreferences
+How can an Android Activity save multiple values with SharedPreferences?,SharedPreferences,Activity
+"How to use SharedPreferences in Android to store, fetch and edit values",Activity,Context,SharedPreferences
+How can an existing SQLite database be placed in an Android app and read?,SQLiteDatabase,File,InputStream
+How can an Android app check whether a SQLite database exists?,SQLiteDatabase
+How can an Android SQLite database be tested using RenamingDelegatingContext?,Context,SQLiteOpenHelper,SQLiteDatabase
+What's the best way to iterate an Android Cursor?,Cursor

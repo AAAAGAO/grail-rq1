@@ -1,0 +1,104 @@
+﻿edge_id,source,target,relation,symmetric,support_count,fact_status,retrieval_status,scope_policy
+bfe73e5f2a834ab4c7a05dbd,android.app.Service,android.content.Intent,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0ba9ef6626a437f4bd7db952,android.content.ClipData,android.content.ClipData.Item,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+55834bb297296c113b7ebe10,android.content.ClipData,android.content.ClipData.Item,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+292e5a864a7afdb955009e03,android.content.ClipData,android.content.ClipData.Item,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fb5e668b2b11d3604e175a6b,android.content.ClipData,android.content.ClipDescription,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b8f623501ee1fc0dda2289c1,android.content.ClipData,android.content.ClipDescription,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+f73d370d0714ae1ea21cd871,android.content.ClipData,android.content.ClipDescription,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3adb00e51c068d2fcbaea8d5,android.content.ClipData,android.content.ClipboardManager,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+a0441ab7e55805f3ab96d0d3,android.content.ClipData,android.content.ContentResolver,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8928ecb571c1d98392906972,android.content.ClipData,android.content.ContentResolver,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+47ebed931a499458efa7fc24,android.content.ClipData,android.content.Intent,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+9e205eaa1a47b799a358a9fd,android.content.ClipData,android.net.Uri,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c2481c2387f9ca876245de64,android.content.ClipData,java.lang.CharSequence,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+05dc366c53e55596f3b6c45e,android.content.ClipData.Item,android.content.ClipData,NESTED_IN,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+256c4532796c8b0ea732e803,android.content.ClipData.Item,android.content.ClipboardManager,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+c8e46983338279f927a3f3fb,android.content.ClipData.Item,android.content.Context,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+96837e03eedd933cfee230cd,android.content.ClipData.Item,android.content.Intent,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+25a3204ff40cac93ecbb3266,android.content.ClipData.Item,android.content.Intent,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+834719b4920db094719c03ed,android.content.ClipData.Item,android.net.Uri,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a25e7ab7a0752285820707fd,android.content.ClipData.Item,android.net.Uri,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+6ea0332b0814ca9489804ad6,android.content.ClipData.Item,android.net.Uri,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+818ed74f147ce9883e36b3b9,android.content.ClipData.Item,java.lang.CharSequence,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ea642fd7596649fa3e11af51,android.content.ClipData.Item,java.lang.CharSequence,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f17383066adf65b41bcd6793,android.content.ClipDescription,android.content.ClipboardManager,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+0ce8a284b62e428d47addc14,android.content.ClipDescription,java.lang.CharSequence,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5f8c52aa105d33690a04f12a,android.content.ClipDescription,java.lang.CharSequence,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+290fe07346c0f7e5c3ccb934,android.content.ClipboardManager,android.content.ClipData,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+494a5fe8a9c84c607ea96100,android.content.ClipboardManager,android.content.ClipData,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+2a6380670dfe694535bafa9e,android.content.ClipboardManager,android.content.ClipData,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+7bd2b41a86245f61af18eec1,android.content.ClipboardManager,android.content.ClipData.Item,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+b3598b3315b77e968cc5d2d7,android.content.ClipboardManager,android.content.ClipDescription,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+1af9b87a188364dca87826ca,android.content.ClipboardManager,android.content.ClipDescription,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+597a9d088933e03631a1aa6d,android.content.ClipboardManager,java.lang.CharSequence,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+304a9ae2b15812a42fd37e59,android.content.ClipboardManager,java.lang.CharSequence,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2a88304daaac93c535c08282,android.content.ContentResolver,android.content.Context,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d091909ae90b519ba70332f1,android.content.ContentResolver,android.database.Cursor,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+029a5c7bbb0cc2c767f63c06,android.content.ContentResolver,android.net.Uri,ACCEPTS,0,22,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f3cbf56eb2a98f4501197e55,android.content.ContentResolver,android.net.Uri,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e8a89f35ddecca3c6dc0eda0,android.content.Context,android.content.ContentResolver,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f98693d0991fed5376093c24,android.content.Context,android.content.Intent,ACCEPTS,0,16,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+088c9b020b198f3b4080d922,android.content.Context,android.content.Intent,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+3ea732e44e2102f3bbccf090,android.content.Context,android.content.Intent,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+45ddd9e54874af67ed812473,android.content.Context,android.net.Uri,ACCEPTS,0,10,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+75691ff4e1434d3dc5b5a680,android.content.Context,java.lang.CharSequence,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+26ea4ca3dbf8a997eab97e28,android.content.Intent,android.content.ClipData,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8c89c111418603c6046fe98e,android.content.Intent,android.content.ClipData,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bfe1d2022f88396bcf91f35a,android.content.Intent,android.content.ContentResolver,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3c94cdb1354aa565f54e0c16,android.content.Intent,android.content.Context,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+2efc55cfc63374677b6d8c3a,android.content.Intent,android.net.Uri,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bbda7f941c78e80d65e8075c,android.content.Intent,android.net.Uri,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ce10377ce150f9902e72bf81,android.content.Intent,java.lang.CharSequence,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+cca0dfbc7857959d04c495c8,android.content.Intent,java.lang.CharSequence,RETURNS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d53f760dcb7b7884e670ec92,android.database.Cursor,android.content.ContentResolver,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bd799fcacdf07cfd6c409227,android.database.Cursor,android.net.Uri,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0d25ad7deebbb409f2058593,android.inputmethodservice.InputMethodService,android.view.KeyEvent,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+65c97f7a3741393ea0272e1d,android.inputmethodservice.InputMethodService,android.view.View,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1d69b88c5d90ff96fbe54dc8,android.inputmethodservice.InputMethodService,android.view.View,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+13d1627213d267129d1ae4fe,android.inputmethodservice.InputMethodService,android.view.inputmethod.EditorInfo,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+be715610ceafeeba98bb4906,android.inputmethodservice.InputMethodService,android.view.inputmethod.EditorInfo,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+953ee461f97719cab311cd42,android.inputmethodservice.InputMethodService,android.view.inputmethod.InputConnection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b62411eb53204853623136a5,android.inputmethodservice.InputMethodService,java.lang.CharSequence,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f57cfc5bbebc30b3e0a70f62,android.inputmethodservice.Keyboard,android.content.Context,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+0f9c139951647ce9ccc04707,android.inputmethodservice.Keyboard,java.lang.CharSequence,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+baf9c00e0e8d44f2ec656628,android.inputmethodservice.KeyboardView,android.content.Context,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+97d04573bfae712e23da4c3c,android.inputmethodservice.KeyboardView,android.inputmethodservice.Keyboard,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a3de546826ba6641de21ff26,android.inputmethodservice.KeyboardView,android.inputmethodservice.Keyboard,REQUIRES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+dee9b84877adb6162f78d391,android.inputmethodservice.KeyboardView,android.inputmethodservice.Keyboard,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+71eb5e952bf2eef807090e26,android.inputmethodservice.KeyboardView,android.view.View,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a5daf3a5bfdc6dded79a3e0c,android.inputmethodservice.KeyboardView,android.view.View,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d2f7dc9699bd750da17b4943,android.service.textservice.SpellCheckerService,android.app.Service,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+3bd36404976404e8cd7cbce2,android.service.textservice.SpellCheckerService,android.content.Intent,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+5fb5984b8a2e1b96eb52a04b,android.service.textservice.SpellCheckerService,android.service.textservice.SpellCheckerService.Session,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b5cdcfa3b42f5c354c1d38d4,android.service.textservice.SpellCheckerService.Session,android.service.textservice.SpellCheckerService,NESTED_IN,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ac79b5ea45472a7d54aa5120,android.service.textservice.SpellCheckerService.Session,android.view.textservice.SentenceSuggestionsInfo,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+099c584aceeeedf772846986,android.text.InputType,android.widget.TextView,CONFIGURES,0,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+7b1a4e36b3fd759933d0ed5e,android.view.KeyEvent,android.view.View,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+0061cd616654d4f910fc6d26,android.view.KeyEvent,android.widget.TextView,COLLABORATES_WITH,1,1,model_reviewed_not_human_verified,unvalidated,Apply only within at least one cited operation/condition; not a universal relation.
+81d1112ea62586bee48ac865,android.view.View,android.content.ClipData,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+97e29628f861e43d79e5a1d1,android.view.View,android.content.Context,ACCEPTS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+09304a8160f3c081309db7ed,android.view.View,android.content.Context,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+e03b8ed9061e8a8b5c28dce5,android.view.View,android.view.KeyEvent,ACCEPTS,0,9,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+fe1e4d1bae6f2ea4cf72f29b,android.view.View,android.view.inputmethod.EditorInfo,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+ae6b7f99b5fad394d0e206be,android.view.View,android.view.inputmethod.InputConnection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c896fe94524fb536df15ad41,android.view.View,java.lang.CharSequence,ACCEPTS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+06bbcbbfbb30b65668cab6fb,android.view.View,java.lang.CharSequence,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+71fab08fb0d8d0075b647c51,android.view.inputmethod.BaseInputConnection,android.view.KeyEvent,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+f037d31f86710ce0da5035a6,android.view.inputmethod.BaseInputConnection,android.view.View,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b9374900dbc97871678357a6,android.view.inputmethod.BaseInputConnection,android.view.inputmethod.InputConnection,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+49fb4e1305838066ee488e43,android.view.inputmethod.BaseInputConnection,java.lang.CharSequence,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+24a43ea155f78d9623173a32,android.view.inputmethod.BaseInputConnection,java.lang.CharSequence,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+b59500e5603bd258efc0d5a4,android.view.inputmethod.EditorInfo,android.text.InputType,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+1fad0c5152327d1843e08b57,android.view.inputmethod.InputConnection,android.view.KeyEvent,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+33c5a9e758f7499fafb83cb2,android.view.inputmethod.InputConnection,java.lang.CharSequence,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+438a444bfffb673b9c68429d,android.view.inputmethod.InputConnection,java.lang.CharSequence,RETURNS,0,3,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+df2a46b6914e16e8d8100180,android.view.inputmethod.InputMethod,android.view.inputmethod.EditorInfo,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+d3d5ca2bcd169f93b27e0425,android.view.inputmethod.InputMethod,android.view.inputmethod.InputConnection,ACCEPTS,0,2,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+c42f1a026a8cdf723922b19e,android.widget.TextView,android.content.Context,ACCEPTS,0,6,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+8f7403ece9294473c4bada10,android.widget.TextView,android.view.KeyEvent,ACCEPTS,0,5,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+a3e9fa6821862f839c3e0ea1,android.widget.TextView,android.view.View,SUBTYPE_OF,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+bf707b2f9e7c8b5e3039e626,android.widget.TextView,android.view.inputmethod.EditorInfo,ACCEPTS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+45d6d38807ebe2013cffbfe9,android.widget.TextView,android.view.inputmethod.InputConnection,RETURNS,0,1,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+6faf148214ff32ce85207519,android.widget.TextView,java.lang.CharSequence,ACCEPTS,0,11,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.
+75a493222fb0ca590efd627d,android.widget.TextView,java.lang.CharSequence,RETURNS,0,4,binary_declaration,unvalidated,Read supporting declarations; no functional equivalence implied.

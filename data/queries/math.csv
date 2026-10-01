@@ -1,0 +1,30 @@
+﻿Java fraction counter with classes,Fraction
+Adding Fraction to current fraction?,Fraction
+Difference in calculating eigenvectors wih Java and Python,EigenDecomposition,RealMatrix,RealVector
+How can a linear system be solved from a RealMatrix in Apache Commons Math?,RealMatrix,DecompositionSolver
+"How can I negate Java Fraction,a class which I've created",Fraction,BigFraction
+How do I fix this ArrayIndexOutOfBounds error in Jama?,SingularValueDecomposition,DecompositionSolver
+How do I get for floatValue() equals() and compareTo() to work in the following using bigintegers,BigFraction
+How do I postmultiply a RealMatrix by a RealVector (org.apache.commons commons-math3),RealMatrix,RealVector
+How to access ExceptionContext object from Exception object,ExceptionContext
+How to carry out equations on multiple fractions,Fraction
+How to get derivatives using apache lib,DerivativeStructure,UnivariateFunctionDifferentiator
+How to multiply a RealVector by a RealMatrix?,RealMatrix,RealVector
+Complex Complex Complex Complex Complex Complex  Complex  Complex  Complex  Complex  How to print List<Complex> to array of x+iy format [ Using Apache Common Math - Complex ],Complex,ComplexFormat
+How to represent Oracle Interval in Java,Interval
+How to use TypeTag correctly if the type to match also takes type parameters,Array2DRowRealMatrix
+Is there any example of cv2.KalmanFilter implementation?,KalmanFilter
+Java- DerivativeStructure inside the Apache Math.Commons library,UnivariateDifferentiableFunction,DerivativeStructure,SingularValueDecomposition
+"Vector3D Vector3D Vector3D Vector3D Vector3D JsonPath/Jackson: how to deserialize JSON array to a single Object ( [1,2,3]  -> Vector3D instance)?",Vector3D
+multiply RealMatrix with Complex matrix,RealMatrix,Array2DRowRealMatrix,Complex
+Multiply vector by matrix,Vector3D,RealVector,RealMatrix
+How can a RealVector be multiplied by a RealMatrix in Apache Commons Math?,RealVector,RealMatrix
+Use of DerivativeStructure in Apache Commons Math,DerivativeStructure
+Vector3f or Vector3d?,Vector3d
+Why do I get that SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition cannot be resolved to a type?,SingularValueDecomposition
+Why does the BigFraction BigFraction BigFraction BigFraction BigFraction class in the Apache-Commons-Math library return incorrect division results?,BigFraction
+Java - Computation of Derivations with Apache Commons Mathematic Library,DerivativeStructure
+How can a differentiable function be represented for numerical differentiation in Commons Math?,UnivariateDifferentiableFunction,DerivativeStructure
+How does BigFraction perform exact division in Apache Commons Math?,BigFraction
+How is RandomKeyMutation used in the Commons Math genetic algorithm framework?,RandomKeyMutation,GeneticAlgorithm
+How can a genetic algorithm be configured with Apache Commons Math?,GeneticAlgorithm
