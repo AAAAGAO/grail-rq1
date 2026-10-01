@@ -1,14 +1,20 @@
 """Apply frozen occurrence reference corrections without changing knowledge."""
 import hashlib
 import json
+import os
 from pathlib import Path
 
-REGISTRY = Path(__file__).resolve().parents[1] / "data/RE_reference/occurrence_reference_overrides.json"
+REGISTRY_ENV = "GRAIL_REFERENCE_OVERRIDE_REGISTRY"
 
 
 def apply_reference_overrides(rows, registry=None):
     if registry is None:
-        registry = json.loads(REGISTRY.read_text(encoding="utf-8")) if REGISTRY.exists() else {}
+        registry_path = os.environ.get(REGISTRY_ENV)
+        registry = (
+            json.loads(Path(registry_path).read_text(encoding="utf-8"))
+            if registry_path and Path(registry_path).exists()
+            else {}
+        )
     output = []
     for row in rows:
         result = dict(row)
