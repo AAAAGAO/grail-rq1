@@ -1,4 +1,4 @@
-"""Apply frozen RQ1 occurrence reference corrections without changing knowledge."""
+"""Apply frozen occurrence reference corrections without changing knowledge."""
 import hashlib
 import json
 from pathlib import Path

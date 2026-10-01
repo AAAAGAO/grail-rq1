@@ -1,6 +1,6 @@
 """Optional terminal scoring with stable ties and no candidate replacement."""
 
-from scripts.rq1_evidence import assess_candidates
+from scripts.evidence import assess_candidates
 
 
 def candidate_order_ties(pair_ids, assessments):

@@ -1,4 +1,4 @@
-"""Graph navigation and usage helpers for the RQ1 retrieval method."""
+"""Graph navigation and usage helpers for retrieval."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ from collections import Counter, defaultdict
 import json
 from pathlib import Path
 
-from scripts.rq1_support import read_csv
+from scripts.support import read_csv
 from scripts.text_utils import compact_text, tokenize
 
 

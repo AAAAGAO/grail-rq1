@@ -4,15 +4,15 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.rq1_feedback import acquire_feedback_candidates
-from scripts.rq1_graph import DirectedGraph
-from scripts.rq1_llm import DEFAULT_MODEL, TOKYO_ENDPOINT, normalize_endpoint
-from scripts.rq1_retrieval import PilotBudget, final_rerank, run_resume_identity
-from scripts.rq1_runner import job_args
+from scripts.feedback import acquire_feedback_candidates
+from scripts.graph import DirectedGraph
+from scripts.llm import DEFAULT_MODEL, TOKYO_ENDPOINT, normalize_endpoint
+from scripts.retrieval import PilotBudget, final_rerank, run_resume_identity
+from scripts.runner import job_args
 
 
 class ScriptedChat:
-    """Replace only the external model while exercising the real RQ1 controller."""
+    """Replace only the external model while exercising the real controller."""
 
     def __init__(self, decisions):
         self.decisions = iter(decisions)
@@ -33,7 +33,7 @@ class ScriptedChat:
         return {"content": json.dumps(decision), "usage": {}, "seconds": 0.0}
 
 
-class RQ1ControllerTests(unittest.TestCase):
+class ControllerTests(unittest.TestCase):
     def test_default_model_and_endpoint(self):
         args = job_args(
             type(
@@ -206,7 +206,7 @@ class RQ1ControllerTests(unittest.TestCase):
         self.assertIn("response_correction", chat.payloads[1])
 
     def test_observation_parser_accepts_fenced_and_trailing_json(self):
-        from scripts.rq1_feedback import parse_observation
+        from scripts.feedback import parse_observation
 
         fenced, format_name = parse_observation(
             'Evidence is sufficient.\n```json\n{"action_id":"STOP"}\n```'

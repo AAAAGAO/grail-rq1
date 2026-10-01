@@ -1,4 +1,4 @@
-"""RQ1-only orchestration helpers."""
+"""Orchestration helpers for the graph retrieval release."""
 
 from __future__ import annotations
 
@@ -7,10 +7,10 @@ from pathlib import Path
 import time
 from urllib.error import HTTPError, URLError
 
-from scripts.rq1_llm import CachedChat, TOKYO_ENDPOINT
-from scripts.rq1_retrieval import DATASETS
-from scripts.rq1_support import read_queries
-from scripts.rq1_graph import sha256
+from scripts.llm import CachedChat, TOKYO_ENDPOINT
+from scripts.retrieval import DATASETS
+from scripts.support import read_queries
+from scripts.graph import sha256
 
 
 class TransportRetryChat(CachedChat):

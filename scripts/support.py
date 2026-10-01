@@ -1,4 +1,4 @@
-"""Shared data, retrieval, and evaluation helpers for the RQ1 artifact."""
+"""Shared retrieval and evaluation helpers."""
 
 from __future__ import annotations
 
@@ -11,8 +11,8 @@ from typing import Iterable
 
 from rank_bm25 import BM25Okapi
 
-from scripts.rq1_knowledge import knowledge_entity_id
-from scripts.rq1_overrides import apply_reference_overrides
+from scripts.knowledge import knowledge_entity_id
+from scripts.overrides import apply_reference_overrides
 from scripts.text_utils import tokenize
 
 

@@ -8,7 +8,7 @@ from collections import Counter
 import json
 import re
 
-from scripts.rq1_knowledge import knowledge_entity_id
+from scripts.knowledge import knowledge_entity_id
 from scripts.text_utils import query_relevant_text
 
 
@@ -237,7 +237,7 @@ def acquire_feedback_candidates(*, configuration, chat, query, initial_pairs,
             reads = [a for a in menu if a["type"] == "READ_PAIRS"]
             expands = [a for a in menu if a["type"] == "EXPAND"]
             if expands and (not trace or trace[-1]["action"] == "READ_PAIRS"):
-                from scripts.rq1_retrieval import FIXED_EXPANSION_ORDER
+                from scripts.retrieval import FIXED_EXPANSION_ORDER
                 rank = {r: i for i, r in enumerate(FIXED_EXPANSION_ORDER)}
                 selected = min(expands, key=lambda a: (rank.get(a["graph_action"], len(rank)),
                                                        discovered.index(a["api"]), a["id"]))

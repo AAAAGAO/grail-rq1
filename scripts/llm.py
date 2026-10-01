@@ -1,4 +1,4 @@
-"""Runtime-only Alibaba Cloud Tokyo client for the RQ1 artifact."""
+"""Runtime-only Alibaba Cloud Tokyo client for the artifact."""
 
 from __future__ import annotations
 

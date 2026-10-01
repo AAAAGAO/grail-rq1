@@ -2,7 +2,7 @@
 import hashlib
 import json
 
-from scripts.rq1_feedback import _cards, parse_observation
+from scripts.feedback import _cards, parse_observation
 
 
 EVIDENCE_SYSTEM = """Assess existing <API, knowledge-unit> pairs for a developer query.

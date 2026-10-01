@@ -1,13 +1,13 @@
-"""Keep RQ1 knowledge independently of official API resolution.
+"""Keep knowledge independently of official API resolution.
 
 Occurrence IDs are scoped to pairs, never asserted to be official API FQNs.
 No speculative API relations are created here.
 """
 from collections import defaultdict
 try:
-    from scripts.rq1_overrides import apply_reference_overrides
+    from scripts.overrides import apply_reference_overrides
 except ModuleNotFoundError:
-    from rq1_overrides import apply_reference_overrides
+    from overrides import apply_reference_overrides
 
 
 def knowledge_entity_id(row):

@@ -1,4 +1,4 @@
-"""Text normalization and query-focused evidence truncation for RQ1."""
+"""Text normalization and query-focused evidence truncation."""
 
 from __future__ import annotations
 

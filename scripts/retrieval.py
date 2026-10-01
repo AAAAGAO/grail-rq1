@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the frozen RQ1 adaptive graph retrieval method."""
+"""Run the frozen adaptive graph retrieval method."""
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ from pathlib import Path
 import time
 from typing import Iterable
 
-from scripts.rq1_support import (
+from scripts.support import (
     api_recall_metrics,
     build_pair_documents,
     build_target_documents,
@@ -24,14 +24,14 @@ from scripts.rq1_support import (
     read_queries,
     score_documents,
 )
-from scripts.rq1_graph import (
+from scripts.graph import (
     DirectedGraph,
     load_graph_edges,
     relation_mask as resolve_relation_mask,
     usage,
 )
-from scripts.rq1_llm import CachedChat, DEFAULT_MODEL, TOKYO_ENDPOINT
-from scripts.rq1_knowledge import knowledge_entity_id
+from scripts.llm import CachedChat, DEFAULT_MODEL, TOKYO_ENDPOINT
+from scripts.knowledge import knowledge_entity_id
 from scripts.text_utils import query_relevant_text
 
 TERMINAL_RERANK_SYSTEM = """Rank supplied existing <API, knowledge-unit> pairs for the developer query.
@@ -602,7 +602,7 @@ def acquire_candidates(
     if configuration not in {"fixed_graph", "adaptive_agent"}:
         raise ValueError(f"unknown configuration: {configuration}")
     if controller_version == "v12":
-        from scripts.rq1_feedback import acquire_feedback_candidates
+        from scripts.feedback import acquire_feedback_candidates
         return acquire_feedback_candidates(
             configuration=configuration, chat=chat, query=query, initial_pairs=initial_pairs,
             pair_scores=pair_scores, pair_lookup=pair_lookup, graph=graph,
@@ -812,7 +812,7 @@ def _run_query(
     terminal_policy = getattr(args, "terminal_ranking", "listwise")
     terminal_details = None
     if terminal_policy == "independent-score":
-        from scripts.rq1_scoring import score_terminal_pairs
+        from scripts.scoring import score_terminal_pairs
         ranked, terminal_details, rerank_calls = score_terminal_pairs(
             chat, text, final_pool, pair_lookup,
         )
@@ -866,15 +866,15 @@ def run_experiment(args: argparse.Namespace, *, chat=None) -> dict[str, object]:
     if args.dataset not in DATASETS:
         raise ValueError("unknown dataset")
     if args.configuration != "adaptive_agent":
-        raise ValueError("RQ1 uses the adaptive_agent configuration only")
+        raise ValueError("this release uses the adaptive_agent configuration only")
     if getattr(args, "controller_version", "v12") != "v12":
-        raise ValueError("RQ1 uses the V12 controller only")
+        raise ValueError("this release uses the V12 controller only")
     if getattr(args, "candidate_retention", "online") != "online":
-        raise ValueError("RQ1 uses online candidate review only")
+        raise ValueError("this release uses online candidate review only")
     if getattr(args, "terminal_ranking", "independent-score") != "independent-score":
-        raise ValueError("RQ1 uses independent terminal scoring only")
+        raise ValueError("this release uses independent terminal scoring only")
     if getattr(args, "phase", "full") != "full":
-        raise ValueError("RQ1 evaluates the frozen full query set only")
+        raise ValueError("this release evaluates the frozen full query set only")
     output = Path(args.output_dir)
     output.mkdir(parents=True, exist_ok=True)
     query_dir = output / "queries"
@@ -883,7 +883,7 @@ def run_experiment(args: argparse.Namespace, *, chat=None) -> dict[str, object]:
     all_queries = read_queries(query_path)
     query_ids = {int(q["query_id"]) for q in all_queries}
     if len(query_ids) != len(all_queries) or not query_ids:
-        raise ValueError("RQ1 query IDs must be nonempty and unique")
+        raise ValueError("query IDs must be nonempty and unique")
     graph_folder = Path(args.graph_root) / args.dataset
     paths = {
         "knowledge_pairs": graph_folder / "knowledge_pairs.csv",
@@ -928,7 +928,7 @@ def run_experiment(args: argparse.Namespace, *, chat=None) -> dict[str, object]:
         "edge_count": len(edges),
     }
     if getattr(args, "controller_version", "v11") == "v12":
-        from scripts.rq1_feedback import FEEDBACK_SYSTEM, FIXED_FEEDBACK_SYSTEM, NO_VERIFICATION_SYSTEM, READ_BATCH, POOL_CAP
+        from scripts.feedback import FEEDBACK_SYSTEM, FIXED_FEEDBACK_SYSTEM, NO_VERIFICATION_SYSTEM, READ_BATCH, POOL_CAP
         observer_prompt = FIXED_FEEDBACK_SYSTEM if args.configuration == "fixed_graph" else FEEDBACK_SYSTEM
         if getattr(args, "verification_policy", "online") == "none":
             observer_prompt = NO_VERIFICATION_SYSTEM
@@ -941,18 +941,18 @@ def run_experiment(args: argparse.Namespace, *, chat=None) -> dict[str, object]:
         }
         manifest["implementation"] = {
             "runner": sha256(Path(__file__)),
-            "controller": sha256(Path(__file__).with_name("rq1_feedback.py")),
+            "controller": sha256(Path(__file__).with_name("feedback.py")),
         }
         manifest["protocol_note"] = "V12 mutable pair pool; repeated same-API reads; no source quota. Fixed uses the same observer with frozen tool decisions."
     if getattr(args, "terminal_ranking", "listwise") == "input-order":
         manifest["prompts"]["reranker"] = None
         manifest["terminal_ranking"] = {"policy": "input-order", "model_calls": 0}
     if getattr(args, "terminal_ranking", "listwise") == "independent-score":
-        from scripts.rq1_evidence import EVIDENCE_SYSTEM
+        from scripts.evidence import EVIDENCE_SYSTEM
         manifest["prompts"]["reranker"] = hashlib.sha256(EVIDENCE_SYSTEM.encode()).hexdigest()
         manifest.setdefault("implementation", {}).update({
-            "terminal_scoring": sha256(Path(__file__).with_name("rq1_scoring.py")),
-            "evidence_scoring": sha256(Path(__file__).with_name("rq1_evidence.py")),
+            "terminal_scoring": sha256(Path(__file__).with_name("scoring.py")),
+            "evidence_scoring": sha256(Path(__file__).with_name("evidence.py")),
         })
         manifest["terminal_ranking"] = {
             "policy": "independent-score", "batch_size": 6,
@@ -962,7 +962,7 @@ def run_experiment(args: argparse.Namespace, *, chat=None) -> dict[str, object]:
     if manifest_path.exists():
         previous = json.loads(manifest_path.read_text(encoding="utf-8"))
         if run_resume_identity(previous) != run_resume_identity(manifest):
-            raise RuntimeError("refusing to reuse RQ1 checkpoints because run identity changed")
+            raise RuntimeError("refusing to reuse checkpoints because run identity changed")
         manifest["started_at"] = previous.get("started_at", manifest["started_at"])
         manifest["resume_count"] = int(previous.get("resume_count", 0)) + 1
         manifest["last_resumed_at"] = time.strftime("%Y-%m-%dT%H:%M:%S%z")
