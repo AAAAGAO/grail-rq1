@@ -1,9 +1,5 @@
-outputs/
-eval_outputs/
-calls/
-.env
-.env.*
-!.env.example
-.venv/
 __pycache__/
 *.pyc
+*.pyo
+.env
+outputs/

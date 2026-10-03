@@ -1,0 +1,217 @@
+{
+  "datasets": [
+    "data",
+    "graphics",
+    "jenkov",
+    "jodatime",
+    "math",
+    "official",
+    "resources",
+    "smack",
+    "text"
+  ],
+  "query_count": 270,
+  "queries_per_dataset": {
+    "data": 30,
+    "graphics": 30,
+    "jenkov": 30,
+    "jodatime": 30,
+    "math": 30,
+    "official": 30,
+    "resources": 30,
+    "smack": 30,
+    "text": 30
+  },
+  "pairs_per_dataset": {
+    "data": 85,
+    "graphics": 511,
+    "jenkov": 2087,
+    "jodatime": 92,
+    "math": 129,
+    "official": 2286,
+    "resources": 230,
+    "smack": 82,
+    "text": 265
+  },
+  "nodes_per_dataset": {
+    "data": {
+      "API": 24,
+      "KU": 85
+    },
+    "graphics": {
+      "API": 44,
+      "KU": 511
+    },
+    "jenkov": {
+      "API": 27,
+      "KU": 2087
+    },
+    "jodatime": {
+      "API": 31,
+      "KU": 92
+    },
+    "math": {
+      "API": 71,
+      "KU": 129
+    },
+    "official": {
+      "API": 53,
+      "KU": 2286
+    },
+    "resources": {
+      "API": 43,
+      "KU": 230
+    },
+    "smack": {
+      "API": 35,
+      "KU": 82
+    },
+    "text": {
+      "API": 25,
+      "KU": 265
+    }
+  },
+  "edges_per_dataset": {
+    "data": {
+      "accepts": 21,
+      "returns": 15,
+      "subtype_of": 3,
+      "same_ku": 76,
+      "has_example": 54,
+      "has_guidance": 18,
+      "has_constraint": 8,
+      "has_explanation": 14,
+      "task_related": 81,
+      "contrasts_with": 30,
+      "complements": 47,
+      "constrains": 14
+    },
+    "graphics": {
+      "accepts": 42,
+      "subtype_of": 17,
+      "returns": 22,
+      "same_ku": 401,
+      "has_example": 373,
+      "has_guidance": 139,
+      "has_explanation": 67,
+      "has_constraint": 26,
+      "complements": 436,
+      "task_related": 1131,
+      "contrasts_with": 306,
+      "constrains": 110
+    },
+    "jenkov": {
+      "returns": 12,
+      "subtype_of": 19,
+      "accepts": 49,
+      "same_ku": 2060,
+      "has_example": 1160,
+      "has_explanation": 554,
+      "has_constraint": 149,
+      "has_guidance": 597,
+      "task_related": 3444,
+      "complements": 2120,
+      "contrasts_with": 1239,
+      "constrains": 671
+    },
+    "jodatime": {
+      "accepts": 21,
+      "returns": 15,
+      "subtype_of": 2,
+      "same_ku": 43,
+      "has_example": 53,
+      "has_guidance": 24,
+      "has_explanation": 31,
+      "has_constraint": 6,
+      "complements": 83,
+      "task_related": 96,
+      "constrains": 39,
+      "contrasts_with": 46
+    },
+    "math": {
+      "accepts": 23,
+      "returns": 30,
+      "subtype_of": 7,
+      "same_ku": 53,
+      "has_explanation": 59,
+      "has_guidance": 41,
+      "has_example": 53,
+      "has_constraint": 16,
+      "contrasts_with": 53,
+      "complements": 97,
+      "task_related": 84,
+      "constrains": 20
+    },
+    "official": {
+      "subtype_of": 70,
+      "accepts": 100,
+      "returns": 43,
+      "same_ku": 2463,
+      "has_explanation": 550,
+      "has_guidance": 533,
+      "has_example": 1216,
+      "has_constraint": 137,
+      "task_related": 3511,
+      "contrasts_with": 1414,
+      "complements": 2244,
+      "constrains": 737
+    },
+    "resources": {
+      "accepts": 76,
+      "returns": 53,
+      "subtype_of": 22,
+      "same_ku": 329,
+      "has_example": 168,
+      "has_guidance": 34,
+      "has_constraint": 11,
+      "has_explanation": 26,
+      "contrasts_with": 151,
+      "complements": 157,
+      "task_related": 302,
+      "constrains": 44
+    },
+    "smack": {
+      "returns": 11,
+      "accepts": 29,
+      "subtype_of": 5,
+      "same_ku": 35,
+      "has_guidance": 57,
+      "has_example": 41,
+      "has_constraint": 4,
+      "has_explanation": 23,
+      "task_related": 54,
+      "complements": 83,
+      "constrains": 23,
+      "contrasts_with": 32
+    },
+    "text": {
+      "accepts": 50,
+      "returns": 31,
+      "subtype_of": 5,
+      "same_ku": 68,
+      "has_example": 183,
+      "has_explanation": 55,
+      "has_guidance": 98,
+      "has_constraint": 21,
+      "complements": 178,
+      "constrains": 52,
+      "task_related": 306,
+      "contrasts_with": 91
+    }
+  },
+  "relations": [
+    "accepts",
+    "complements",
+    "constrains",
+    "contrasts_with",
+    "has_constraint",
+    "has_example",
+    "has_explanation",
+    "has_guidance",
+    "returns",
+    "same_ku",
+    "subtype_of",
+    "task_related"
+  ],
+  "source_graph": "formal_api_knowledge_graph_20260926"
+}
