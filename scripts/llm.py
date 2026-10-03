@@ -1,5 +1,3 @@
-"""Runtime-only Alibaba Cloud Tokyo client for the artifact."""
-
 from __future__ import annotations
 
 import hashlib

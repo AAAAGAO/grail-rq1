@@ -1,10 +1,7 @@
-"""Optional terminal scoring with stable ties and no candidate replacement."""
-
 from scripts.evidence import assess_candidates
 
 
 def candidate_order_ties(pair_ids, assessments):
-    """Retain controller order only when all scoring keys are equal."""
     if len(pair_ids) != len(set(pair_ids)) or set(pair_ids) != set(assessments):
         raise ValueError("scores must cover every unique candidate exactly once")
     return sorted(pair_ids, key=lambda p: (

@@ -1,8 +1,3 @@
-"""Keep knowledge independently of official API resolution.
-
-Occurrence IDs are scoped to pairs, never asserted to be official API FQNs.
-No speculative API relations are created here.
-"""
 from collections import defaultdict
 try:
     from scripts.overrides import apply_reference_overrides

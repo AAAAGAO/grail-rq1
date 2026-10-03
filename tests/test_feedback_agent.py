@@ -12,8 +12,6 @@ from scripts.runner import job_args
 
 
 class ScriptedChat:
-    """Replace only the external model while exercising the real controller."""
-
     def __init__(self, decisions):
         self.decisions = iter(decisions)
         self.payloads = []

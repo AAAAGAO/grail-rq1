@@ -1,5 +1,3 @@
-"""Orchestration helpers for the graph retrieval release."""
-
 from __future__ import annotations
 
 import argparse
@@ -14,8 +12,6 @@ from scripts.graph import sha256
 
 
 class TransportRetryChat(CachedChat):
-    """Retry transient transport failures without changing the request."""
-
     def call(self, system, user):
         errors = []
         for attempt in range(3):

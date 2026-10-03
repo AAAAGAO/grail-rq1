@@ -1,4 +1,3 @@
-"""Apply frozen occurrence reference corrections without changing knowledge."""
 import hashlib
 import json
 import os

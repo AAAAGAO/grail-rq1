@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Run the frozen adaptive graph retrieval method."""
-
 from __future__ import annotations
 
 import argparse
@@ -541,7 +538,6 @@ def rank_graph_pairs(
     priority_pair_ids: list[str] | None = None,
     limit: int,
 ) -> list[str]:
-    """Rank graph-acquired pairs while reserving the first pass for API diversity."""
     preferred = set(preferred_pair_ids)
     priority = {pair_id: index for index, pair_id in enumerate(priority_pair_ids or [])}
     by_api: dict[str, list[str]] = defaultdict(list)
@@ -746,7 +742,6 @@ def _jsonable_args(args: argparse.Namespace) -> dict[str, object]:
 
 
 def retain_observed_candidates(chat, query, initial_pairs, trace, final_pool, pair_lookup):
-    """Reconsider only observed evidence; keep the final pool cap and ranking prompt."""
     observed = _unique([
         *initial_pairs,
         *(pair_id for event in trace for pair_id in event.get("read_pair_ids", [])),

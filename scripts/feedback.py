@@ -1,7 +1,3 @@
-"""V12: observe pair evidence, revise the working pool, then choose one tool.
-
-No labels enter this module. A fixed-action control shares the observer and tools.
-"""
 from __future__ import annotations
 
 from collections import Counter
@@ -132,7 +128,6 @@ def acquire_feedback_candidates(*, configuration, chat, query, initial_pairs,
         raise ValueError("unknown verification policy")
     if verification_policy == "none" and configuration != "adaptive_agent":
         raise ValueError("no-verification ablation requires adaptive acquisition")
-    # All APIs in already-visible pairs are valid anchors, not only a privileged prefix.
     discovered = list(dict.fromkeys(knowledge_entity_id(pair_lookup[p]) for p in initial_pairs))
     seen = set(initial_pairs)
     active = list(initial_pairs)
@@ -232,8 +227,6 @@ def acquire_feedback_candidates(*, configuration, chat, query, initial_pairs,
 
         selected = legal["STOP"] if configuration == "fixed_graph" else legal[decision["action_id"]]
         if configuration == "fixed_graph":
-            # Frozen policy: alternate expansion and reading when possible; paginate
-            # reads round-robin. Candidate observations never change this schedule.
             reads = [a for a in menu if a["type"] == "READ_PAIRS"]
             expands = [a for a in menu if a["type"] == "EXPAND"]
             if expands and (not trace or trace[-1]["action"] == "READ_PAIRS"):
@@ -271,7 +264,7 @@ def acquire_feedback_candidates(*, configuration, chat, query, initial_pairs,
         if selected["type"] == "READ_PAIRS":
             ids = selected["pair_ids"]
             seen.update(ids)
-            active.extend(ids)  # next observation judges the overflow before any truncation
+            active.extend(ids)
             read_counts[selected["api"]] += 1
             last_nodes = []
             event.update({"api": selected["api"], "read_pair_ids": ids})

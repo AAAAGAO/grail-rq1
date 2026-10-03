@@ -1,5 +1,3 @@
-"""Text normalization and query-focused evidence truncation."""
-
 from __future__ import annotations
 
 import re
@@ -15,7 +13,6 @@ def compact_text(value: str, max_chars: int) -> str:
 
 
 def query_relevant_text(value: str, query: str, max_chars: int) -> tuple[str, bool]:
-    """Select a contiguous query-relevant window instead of blindly keeping the prefix."""
     clean = re.sub(r"\s+", " ", re.sub(r"<[^>]*>", " ", value)).strip()
     if len(clean) <= max_chars:
         return clean, False

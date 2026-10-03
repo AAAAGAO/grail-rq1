@@ -1,4 +1,3 @@
-"""Run the graph retrieval method over externally supplied inputs."""
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
@@ -13,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser()
     parser.add_argument('--model', default=os.environ.get('ALIYUN_MODEL', DEFAULT_MODEL))
     parser.add_argument('--endpoint', default=os.environ.get('ALIYUN_ENDPOINT', TOKYO_ENDPOINT))
     parser.add_argument('--datasets', nargs='+', choices=DATASETS, default=list(DATASETS))
