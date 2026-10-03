@@ -1,0 +1,211 @@
+dataset,query_id,query,gold_apis
+data,1,How can an app detect folders or files on the SD card belonging to it?,SharedPreferences;Editor
+data,2,How can SQLiteOpenHelper return SQLiteDatabase?,Cursor;SQLiteDatabase;SQLiteOpenHelper
+data,3,How do DeviceAdminReceivers work?,DeviceAdminReceiver;Context
+data,4,How do I get extra data from intent on Android?,Intent
+data,5,How can BackupAgentHelper back up Android SharedPreferences?,BackupAgentHelper;SharedPreferencesBackupHelper;SharedPreferences
+data,6,How do I get the SharedPreferences from a PreferenceActivity in Android?,Activity;Context;SharedPreferences;Editor;File
+data,7,How do I pass data between Activities in Android application?,Intent
+data,8,How does context work on Android?,Context
+data,9,"How to backup email messages with sender name, email id and body?",AccountManager;Cursor
+data,10,How to call a method of a InfiniteViewPager fragment from activity,Activity;Context
+data,11,How to cancel an AlarmManager,Intent;AlarmManager;Context
+data,12,How to construct package URI using PackageManager in android,Intent;PackageInfo
+data,13,How to convert OutputStream to InputStream?,InputStream;OutputStream
+data,14,How to create context in android.content.Context and android.app.Activity?,Activity;Context
+data,15,How to exchange FileOutputStream for BufferedOutputStream,FileOutputStream;OutputStream
+data,16,How to extend SQLiteDatabase class?,SQLiteDatabase
+data,17,How can an Android app start an Activity from a non-Activity Java class?,Context;Intent;Activity
+data,18,How to have Android Service communicate with Activity,Intent;Activity
+data,19,How to pass data from Afragment to Bactivity on xamarin android?,Activity;Intent
+data,20,How to read/write preferences from a DialogFragment?,Context;SharedPreferences;Editor
+data,21,How to return a result (startActivityForResult) from a TabHost Activity?,Intent;Activity
+data,22,How to save an image path in SharedPreferences in Android app? my code dont work,Context;Editor
+data,23,How to start new activity on button click,Intent
+data,24,How to use getSharedPreferences in a AppCompatActivity,Context;SharedPreferences
+data,25,How can an Android Activity save multiple values with SharedPreferences?,SharedPreferences;Activity
+data,26,"How to use SharedPreferences in Android to store, fetch and edit values",Activity;Context;SharedPreferences
+data,27,How can an existing SQLite database be placed in an Android app and read?,SQLiteDatabase;File;InputStream
+data,28,How can an Android app check whether a SQLite database exists?,SQLiteDatabase
+data,29,How can an Android SQLite database be tested using RenamingDelegatingContext?,Context;SQLiteOpenHelper;SQLiteDatabase
+data,30,What's the best way to iterate an Android Cursor?,Cursor
+graphics,1,How to animate background of ActionMode of the ActionBar?,Resources;View;ArgbEvaluator;AnimatorUpdateListener;ValueAnimator
+graphics,2,Android how to chain  exploding  text animations in textView?,AnimatorListenerAdapter;AnimatorSet;Button;LinearLayout;ObjectAnimator;TextView;View
+graphics,3,Android: how to create a 9patch image from an inputstream?,Resources;Bitmap;NinePatchDrawable;Button
+graphics,4,How Can I do a listview from a click on button?,View
+graphics,5,How can ImageView and TextView fields be populated in a customized ListView item?,ImageView;TextView
+graphics,6,How do I add a second button android?,Button;View
+graphics,7,How do I animate smoothly the current progress for SendingProgressView?,AnimatorListenerAdapter;ValueAnimator;AnimatorUpdateListener;AccelerateDecelerateInterpolator;View
+graphics,8,How do I use an id from the layout file of a listview?,View;TextView;ImageView
+graphics,9,How do you put a floating action button (FAB) above a ListView in a Fragment in xml?,Drawable;Button;LinearLayout;ListView
+graphics,10,How does Android ObjectAnimator work?,ObjectAnimator;View
+graphics,11,How to add Editext and Button to Efficent Adapter which has a Icon and text,Button;LinearLayout;ListView;TextView
+graphics,12,How can Canvas draw one Bitmap over another in Android?,Canvas;Bitmap
+graphics,13,How to convert a Drawable to a Bitmap?,Bitmap;ImageView
+graphics,14,how to convert PictureDrawable into Bitmap,Bitmap;View;Canvas;Drawable
+graphics,15,How to create project which extends view interface of Android?,Button;View
+graphics,16,how to disable temporarily a button Android,Button
+graphics,17,How to Display blurred bitmap of screenshot using opengl es 2.0 on android?,GLES20
+graphics,18,How to draw a smaller ShapeDrawable inside another shapeDrawable programmatically,ShapeDrawable;Drawable
+graphics,19,how to draw image on surfaceview android,Canvas;Bitmap;Paint;SurfaceHolder
+graphics,20,How to fill cells of a GridView with lists of names?,ListView;TextView
+graphics,21,How to get the width and height of an android.widget.ImageView?,ImageView;TextView
+graphics,22,How to make a rounded surfaceview,SurfaceView;View
+graphics,23,How to make animation play indefinitely,ValueAnimator;ObjectAnimator;ArgbEvaluator
+graphics,24,how to make surfaceview transparent,SurfaceView
+graphics,25,How to make SurfaceView with transparent background?,SurfaceHolder;Bitmap;Paint;Canvas
+graphics,26,How can a Bitmap drawn on a Canvas be saved as a JPEG or PNG image?,Bitmap;Canvas
+graphics,27,How to set animator for left to right and inverse for Multiple Screens,ImageView;ObjectAnimator;View;AnimatorSet
+graphics,28,How to set Marker icon using fontawesome,BitmapDrawable;ImageView
+graphics,29,How to simply animate views in android,AnimatorSet;ObjectAnimator;View
+graphics,30,How to: draw shapes and text in the still image (png file) then put into ImageView?,Bitmap;Canvas
+jenkov,1,How to do fast prefix string matching in Scala,TreeSet;Iterable;Set;String
+jenkov,2,How to pass value for a treeset in spring?,Set;TreeSet
+jenkov,3,What is the most efficient way to access particular elements in a SortedSet?,NavigableMap;SortedSet;TreeSet;List
+jenkov,4,How to use put() in a subclass of Java's TreeMap,TreeMap
+jenkov,5,How to create TreeMap of ArrayList in Groovy,TreeMap;ArrayList;Map
+jenkov,6,How to convert Java Collection[Int] to Array[Int] in Scala,Collection;Iterable
+jenkov,7,"how to sort a scala.collection.Map[java.lang.String, Int] by its values?",SortedMap;Map;List;String
+jenkov,8,How to get all values from the destination List in this example,SortedSet;TreeSet;List
+jenkov,9,How to Customize a TreeMap to sort keys in descending order?,Entry;TreeMap;Map
+jenkov,10,How to create Async Task loading back ground while get data from data base,SortedMap;TreeMap
+jenkov,11,How to tell if Queue size is greater than max int?,Iterator;PriorityQueue
+jenkov,12,How to convert XML to java.util.Map and vice versa,HashMap;Map;String;Entry
+jenkov,13,When to use LinkedList over ArrayList?,Iterator;ArrayList;ArrayDeque;LinkedList;List
+jenkov,14,Differences between HashMap and Hashtable?,HashMap
+jenkov,15,How can I add an Map Entry to an ArrayList?,List;Map;Entry;String;ArrayList;Collections;Comparator
+jenkov,16,How can I initialise a static Map?,Map;Collections
+jenkov,17,How do I shuffle a deque?,Collections;Deque;List;ArrayList;ArrayDeque;LinkedList
+jenkov,18,How do I use a PriorityQueue?,Comparator;Map;Set;String;PriorityQueue
+jenkov,19,How do you implement a Stack and a Queue in JavaScript?,Stack;Queue
+jenkov,20,How to compare arbitrary elements in Java PriorityQueue?,PriorityQueue;TreeSet;Iterator
+jenkov,21,How to convert an Array to a Set in Java,List;Set
+jenkov,22,How to create Comparator,Comparable;Comparator;String
+jenkov,23,How to create Linkedhashset using Hashset?,LinkedHashSet;Hashset
+jenkov,24,How to efficiently iterate over each Entry in a Map?,Map;Set;String;Iterator;Entry
+jenkov,25,how to get the one entry from hashmap without iterating,TreeMap;String;HashMap
+jenkov,26,How to initialize SortedMap?,List;ArrayList;LinkedList;SortedMap
+jenkov,27,How to Loop in NavigableMap in Java,Collection;Iterator;Map;Set
+jenkov,28,how to remove element from NavigableSet,NavigableSet;TreeSet;Iterator
+jenkov,29,What interface represents a LinkedHashSet with insertion order iteration,Set;LinkedHashSet
+jenkov,30,What is the best way to filter a Java Collection?,List;Collection
+jodatime,1,How to obtain the start time and end time of a day?,Datetime;Interval;Period;Duration
+jodatime,2,How to determine day of week by passing specific date?,Datetime;DatetimeFormat
+jodatime,3,Generics Hell -How do I pass a joda.DateTime to Hamcrest Matcher.greaterThan?,ReadableInstant;DateTime
+jodatime,4,Why are Joda-Time instant objects immutable?,Instant;ReadableInstant;DateTime
+jodatime,5,How does ISOChronology represent date and time fields in Joda-Time?,ISOChronology;Chronology
+jodatime,6,How can I get the names of days of week in JodaTime,DateTime;DateTime.Property;DateTimeConstants
+jodatime,7,How can DateTimeFormat parse only strings in yyyyMMdd form?,DateTimeFormat;DateTime
+jodatime,8,How is an exact duration represented in milliseconds in Joda-Time?,Duration
+jodatime,9,How do I calculate the difference between two dates?,Period;PeriodType
+jodatime,10,"How do I store a timeline/schedule, location full or empty from time x to y (interval)?",Interval;DateTime;Duration
+jodatime,11,How is Joda MutableDateTime's setDate(DateTime) method working?,DateTime;DateTimeZone.getAvailableIDs();MutableDateTime
+jodatime,12,How to add one day to a date?,Datetime
+jodatime,13,How can Joda-Time calculate the difference in months between two dates?,Period;PeriodType;DateTime
+jodatime,14,How to check if a list of intervals (Joda-Time) fully covers a month in Java,Interval
+jodatime,15,How to compare date instances in same time zone with different time zone representations?,ISODateTimeFormat
+jodatime,16,How to compare DateTime or MutableDateTime objects correctly in Joda Time?,DateTime
+jodatime,17,How to compare two Instant based on the date not time,Instant
+jodatime,18,How can Joda-Time obtain the current instant in UTC?,Instant;DateTime
+jodatime,19,How to convert ReadableInstant (Joda Time) to Java Date?,ReadableInstant
+jodatime,20,How to Convert type Instant to type XMLGregorianCalendar?,Instant
+jodatime,21,How can Joda-Time create DateTime values for midnight today and tomorrow?,DateMidnight;DateTime
+jodatime,22,how to get any specific date of current year,DateTimeFormat;DateTime
+jodatime,23,How to get epoch limits of Java 8 chronology?,Chronology
+jodatime,24,How to handle jodatime Illegal instant due to time zone offset transition,DateTime;Instant
+jodatime,25,How can a date string be converted to a Joda-Time DateTime object?,DateTime;DateTimeFormat
+jodatime,26,How to keep track of non empty field in Joda date buffer,Mutabledatetime
+jodatime,27,How to represent Oracle Interval in Java,Interval
+jodatime,28,How can DateTimeFormat parse a timestamp string into a Joda-Time DateTime?,DateTimeFormat;DateTime
+jodatime,29,How can the time-zone setting of a Joda-Time DateTime be changed?,DateTime
+jodatime,30,"Joda-Time: what's the difference between Period, Interval and Duration?",Interval;Duration;Period
+math,1,Java fraction counter with classes,Fraction
+math,2,Adding Fraction to current fraction?,Fraction
+math,3,Difference in calculating eigenvectors wih Java and Python,EigenDecomposition;RealMatrix;RealVector
+math,4,How can a linear system be solved from a RealMatrix in Apache Commons Math?,RealMatrix;DecompositionSolver
+math,5,"How can I negate Java Fraction,a class which I've created",Fraction;BigFraction
+math,6,How do I fix this ArrayIndexOutOfBounds error in Jama?,SingularValueDecomposition;DecompositionSolver
+math,7,How do I get for floatValue() equals() and compareTo() to work in the following using bigintegers,BigFraction
+math,8,How do I postmultiply a RealMatrix by a RealVector (org.apache.commons commons-math3),RealMatrix;RealVector
+math,9,How to access ExceptionContext object from Exception object,ExceptionContext
+math,10,How to carry out equations on multiple fractions,Fraction
+math,11,How to get derivatives using apache lib,DerivativeStructure;UnivariateFunctionDifferentiator
+math,12,How to multiply a RealVector by a RealMatrix?,RealMatrix;RealVector
+math,13,Complex Complex Complex Complex Complex Complex  Complex  Complex  Complex  Complex  How to print List<Complex> to array of x+iy format [ Using Apache Common Math - Complex ],Complex;ComplexFormat
+math,14,How to represent Oracle Interval in Java,Interval
+math,15,How to use TypeTag correctly if the type to match also takes type parameters,Array2DRowRealMatrix
+math,16,Is there any example of cv2.KalmanFilter implementation?,KalmanFilter
+math,17,Java- DerivativeStructure inside the Apache Math.Commons library,UnivariateDifferentiableFunction;DerivativeStructure;SingularValueDecomposition
+math,18,"Vector3D Vector3D Vector3D Vector3D Vector3D JsonPath/Jackson: how to deserialize JSON array to a single Object ( [1,2,3]  -> Vector3D instance)?",Vector3D
+math,19,multiply RealMatrix with Complex matrix,RealMatrix;Array2DRowRealMatrix;Complex
+math,20,Multiply vector by matrix,Vector3D;RealVector;RealMatrix
+math,21,How can a RealVector be multiplied by a RealMatrix in Apache Commons Math?,RealVector;RealMatrix
+math,22,Use of DerivativeStructure in Apache Commons Math,DerivativeStructure
+math,23,Vector3f or Vector3d?,Vector3d
+math,24,Why do I get that SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition SingularValueDecomposition cannot be resolved to a type?,SingularValueDecomposition
+math,25,Why does the BigFraction BigFraction BigFraction BigFraction BigFraction class in the Apache-Commons-Math library return incorrect division results?,BigFraction
+math,26,Java - Computation of Derivations with Apache Commons Mathematic Library,DerivativeStructure
+math,27,How can a differentiable function be represented for numerical differentiation in Commons Math?,UnivariateDifferentiableFunction;DerivativeStructure
+math,28,How does BigFraction perform exact division in Apache Commons Math?,BigFraction
+math,29,How is RandomKeyMutation used in the Commons Math genetic algorithm framework?,RandomKeyMutation;GeneticAlgorithm
+math,30,How can a genetic algorithm be configured with Apache Commons Math?,GeneticAlgorithm
+official,1,How can I initialise a static Map?,Map;Collection
+official,2,"Difference between HashMap, LinkedHashMap and TreeMap",Map;SortedMap;Comparator;LinkedHashMap;ConcurrentHashMap
+official,3,How do I instantiate a Queue object in java?,Queue;LinkedList;PriorityQueue
+official,4,How do I use a PriorityQueue?,Comparator;PriorityQueue
+official,5,how to access ConcurrentHashMap elements from other class Method,Map
+official,6,How to add latencies in the ConcurrentLinkedQueue which is part of ConcurrentMap map in atomic way?,HashMap
+official,7,How to apend a linkedlist onto a specific node of a linkedlist?,LinkedList;String;List;Collections;Arrays
+official,8,How to check if ArrayBlockingQueue is locked or queue element currently processed by thread?,ArrayBlockingQueue
+official,9,How to convert ArrayList<subClass> to ArrayList<super> in java,ArrayList;List
+official,10,How to convert/cast HashMap to LinkedHashMap?,LinkedHashMap;HashMap;Map
+official,11,How to create empty EnumSet?,EnumSet
+official,12,How to deserialize polymorphic LinkedList with Jackson JSON and JAVA?,List;ArrayList;LinkedHashMap;Object
+official,13,How to easily convert a java8 map to a concurrentMap?,ConcurrentHashMap
+official,14,"How to effectively use a String as a WeakHashMap key in Java, or an alternative solution",WeakHashMap;String
+official,15,how to implement a comparator for StringBuffer class in Java for use in TreeSet?,Comparator;Set;TreeSet
+official,16,How to initialize HashSet values by construction?,Set;HashSet;Arrays;Collection
+official,17,How to iterate PriorityBlockingQueue in order,PriorityBlockingQueue
+official,18,How to iterate through LinkedHashMap with lists as values,Map;ArrayList;List
+official,19,How to make BlockingQueue to accept multiple types?,BlockingQueue;ArrayBlockingQueue;Object
+official,20,How to make thread communication using deque?,Deque;LinkedList
+official,21,How to override Externalizable to Serializable?,Object;Serializable
+official,22,How can a bounded blocking queue be created in Java?,LinkedBlockingQueue
+official,23,How to remove and add elements to TreeMap while iterating?,Map;HashMap
+official,24,How can a size-limited Queue keep only the last N elements in Java?,Queue
+official,25,How to shuffle/randomize elements within EnumSet in Java?,List;ArrayList;Collections;EnumSet
+official,26,How to subSet from SortedSet<String>,SortedSet;Set;TreeSet;String
+official,27,How to use generic EnumMap as parameter in abstract methods,EnumMap;HashMap;Object
+official,28,How To Use ListIterator?,ListIterator
+official,29,How to use the current thread to process a work queue?,Queue
+official,30,Why is Java Vector class considered obsolete or deprecated?,Vector;Deque;ArrayDeque;Collections
+text,1,How do I get extra data from intent on Android?,Intent
+text,2,Android: How to catch every touch-input of the Soft Keyboard?,CharSequence;KeyEvent
+text,3,How do I center text horizontally and vertically in a TextView on Android?,TextView
+text,4,How can links inside an Android TextView be made clickable?,TextView;View
+text,5,How to add custom InputMethodService to Activity?,InputMethod
+text,6,How to add manifest permission to android application?,permission
+text,7,Is an Android Content Provider an implementation of the Repository pattern?,Cursor
+text,8,How to check if a service is running on Android?,Service;Intent
+text,9,How To Convert A Bitmap Image To Uri,URI;Context
+text,10,How to convert a String array to a CharSequence?,CharSequence
+text,11,How to create a KeyEvent,KeyEvent
+text,12,How can a link URI inside an Android TextView be handled when clicked?,Uri;TextView
+text,13,How to deal with deprecated classes in Android to keep compatibility,Context
+text,14,How to get current InputMethodService,InputMethodService
+text,15,How to get word from CurrentInputConnection in android?,TextView;InputConnection
+text,16,How to have Android Service communicate with Activity,Intent;Service
+text,17,"How to hide soft input Keyboard when the Navigation drawer is being toggled , using fragments",View;Context
+text,18,How can text be copied to the Android clipboard?,ClipboardManager
+text,19,How to implement ripple effect in Android KeyboardView?,KeyboardView
+text,20,How to know if an InputMethod is enabled?,InputMethod
+text,21,How to link two xml pages in Android app when a button is clicked?,Intent
+text,22,How to make a UITextField move up when keyboard is present?,Keyboard
+text,23,How to obtain AssetManager without reference to Context?,Context
+text,24,How to properly set InputType for EditText?,InputType
+text,25,How to send a KeyEvent if a gesture is detected,KeyEvent
+text,26,How to send and receive multiple data and data-types through Clipdata in android drag and drop?,Clipdata;View;CharSequence
+text,27,How to Set Opacity (Alpha) for View in Android,TextView;Context
+text,28,How to test InputMethodService,InputConnection
+text,29,What's the best way to iterate an Android Cursor?,Cursor
+text,30,When does InputConnection become invalid?,InputConnection
