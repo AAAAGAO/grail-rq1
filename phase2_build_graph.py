@@ -10,6 +10,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pairs", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--references")
     parser.add_argument("--declarations")
     parser.add_argument("--relations")
     parser.add_argument("--model")
@@ -22,6 +23,7 @@ def main():
     result = build(
         Path(args.pairs),
         Path(args.output),
+        references_path=Path(args.references) if args.references else None,
         declarations_path=Path(args.declarations) if args.declarations else None,
         relations_path=Path(args.relations) if args.relations else None,
         client=client,

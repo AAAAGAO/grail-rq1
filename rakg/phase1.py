@@ -23,11 +23,23 @@ def collect(
     specification_path,
     output_path,
     dataset="",
+    reference_output_path=None,
 ):
+    descriptions = {}
+    for row in read_csv(specification_path):
+        api = normalize_text(_value(row, ("canonical_api", "resolved_api", "api", "API", "raw_api")))
+        description = normalize_text(_value(row, ("description", "DP", "reference", "ku", "KI")))
+        if api and description:
+            descriptions[api.casefold()] = {
+                "canonical_api": api,
+                "reference": description,
+                "reference_origin": normalize_text(_value(
+                    row, ("reference_origin", "origin", "source")
+                )),
+            }
     sources = (
         ("SG", tutorial_path, ("api", "API", "raw_api"), ("ku", "KI", "segment", "SG")),
         ("QA", stackoverflow_path, ("api", "API", "raw_api"), ("ku", "KI", "answer", "QA")),
-        ("DP", specification_path, ("api", "API", "raw_api"), ("ku", "KI", "description", "DP")),
     )
     rows = []
     index = 1
@@ -37,19 +49,31 @@ def collect(
             ku = normalize_text(_value(row, ku_names))
             if not api or not ku:
                 continue
+            canonical_api = normalize_text(_value(row, ("canonical_api", "resolved_api")))
+            description = descriptions.get(
+                (canonical_api or api).casefold(),
+                descriptions.get(api.casefold(), {}),
+            )
             rows.append({
                 "pair_id": f"PAIR-{index:06d}",
                 "dataset": dataset,
                 "ku_source": source,
                 "raw_api": api,
-                "canonical_api": normalize_text(_value(row, ("canonical_api", "resolved_api"))),
-                "reference": normalize_text(_value(row, ("reference", "DP", "description"))),
+                "canonical_api": canonical_api,
+                "reference": description.get("reference", ""),
+                "reference_origin": description.get("reference_origin", ""),
                 "ku": ku,
                 "identified_relevance": "",
                 "relevant_groundtruth": "",
             })
             index += 1
     write_csv(output_path, rows)
+    if reference_output_path is not None:
+        write_csv(
+            reference_output_path,
+            descriptions.values(),
+            columns=("canonical_api", "reference", "reference_origin"),
+        )
 
 
 def _tokens(value):

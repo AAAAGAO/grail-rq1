@@ -22,6 +22,8 @@ def main():
     parser.add_argument("--endpoint")
     parser.add_argument("--max-actions", type=int, default=6)
     parser.add_argument("--max-expansions", type=int, default=3)
+    parser.add_argument("--read-batch", type=int, default=6)
+    parser.add_argument("--candidate-cap", type=int, default=30)
     parser.add_argument("--all", action="store_true")
     args = parser.parse_args()
     queries = validate_release(args.data_root, args.queries)
@@ -39,7 +41,11 @@ def main():
                 "query": args.query,
                 "ground_truth_apis": [],
             }]
-    client = Client(endpoint=args.endpoint) if args.controller == "llm" or args.verifier == "llm" else None
+    client = (
+        Client(endpoint=args.endpoint, model=args.model)
+        if args.controller == "llm" or args.verifier == "llm"
+        else None
+    )
     report = []
     for row in selected:
         retriever = Retriever(
@@ -51,6 +57,8 @@ def main():
             client=client,
             max_actions=args.max_actions,
             max_expansions=args.max_expansions,
+            read_batch=args.read_batch,
+            candidate_cap=args.candidate_cap,
         )
         result = retriever.retrieve(row["query"])
         result["query_id"] = row["query_id"]

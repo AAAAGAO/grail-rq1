@@ -133,6 +133,7 @@ def _api_node(dataset, api, row):
 def build(
     pairs_path,
     output_dir,
+    references_path=None,
     declarations_path=None,
     relations_path=None,
     client=None,
@@ -150,11 +151,21 @@ def build(
         {**row, "dataset": row.get("dataset", "").strip() or dataset}
         for row in source_pairs
     ]
+    references = {}
+    if references_path:
+        references = {
+            normalize_text(row.get("canonical_api", "")).casefold(): row
+            for row in read_csv(references_path)
+            if normalize_text(row.get("canonical_api", ""))
+        }
     nodes = []
     api_rows = {}
     for row in pairs:
         api = row["canonical_api"].strip()
-        api_rows.setdefault(api, row)
+        api_rows.setdefault(
+            api,
+            references.get(api.casefold(), row),
+        )
     nodes.extend(_api_node(dataset, api, api_rows[api]) for api in sorted(api_rows))
     for row in pairs:
         api = row["canonical_api"].strip()

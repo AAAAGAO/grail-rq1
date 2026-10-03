@@ -9,6 +9,7 @@ def main():
     parser.add_argument("--stackoverflow", required=True)
     parser.add_argument("--specification", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--reference-output")
     parser.add_argument("--dataset", default="")
     args = parser.parse_args()
     collect(
@@ -17,6 +18,7 @@ def main():
         args.specification,
         args.output,
         dataset=args.dataset,
+        reference_output_path=args.reference_output,
     )
 
 
